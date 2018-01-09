@@ -24,7 +24,13 @@ $line-height-base: 1.6;
 $text-color: #636b6f;
 
 // Navbar
-$navbar-default-bg: #fff;
+$navbar-default-bg: rgba(0, 0, 0, 0.6);
+$navbar-default-link: #fff;
+$navbar-active-link: #ff1d25;
+
+//Footer
+$footer-text-color:#fff;
+
 
 // Buttons
 $btn-default-color: $text-color;

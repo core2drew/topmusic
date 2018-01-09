@@ -10,9 +10,13 @@ let mix = require('laravel-mix');
  | file for the application as well as bundling up all the JS files.
  |
  */
+mix.options({
+    processCssUrls: false // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
+});
 
 mix
     .sass('resources/assets/sass/app.scss', 'public/css')
-    .sass("node_modules/bulma/bulma.sass", "public/css")
+    .sass('resources/assets/sass/landing.scss', 'public/css')
+    .sass('node_modules/bulma/bulma.sass', 'public/css')
 
     

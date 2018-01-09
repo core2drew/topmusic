@@ -1,2 +1,30 @@
-@import "app";
+@import "variables";
 
+#LandingPage{
+  background-image:url('../images/landing/landing-bg.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+
+  > .hero-head {
+    background-color: $navbar-default-bg;
+
+    > .navbar > .container > .navbar-menu > .navbar-end > .navbar-item {
+      color:$navbar-default-link;
+      font-size:0.85em;
+    }
+
+    > .navbar > .container > .navbar-menu > .navbar-end > .navbar-item:hover {
+      color:$navbar-active-link;
+    }
+
+    > .navbar > .container > .navbar-menu > .navbar-end > .is-active {
+      color:$navbar-active-link;
+    }
+  }
+
+  > .hero-body {
+    > .container > .title {
+      color:#fff;
+    }
+  }
+}
