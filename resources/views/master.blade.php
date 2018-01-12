@@ -9,7 +9,6 @@
     <link href="css/font-icons.css" rel="stylesheet"/>
     <link href="css/bulma.css" rel="stylesheet"/>
     <link href="css/app.css" rel="stylesheet"/>
-    @yield('styles')
 </head>
 <body>
     @yield('content')

@@ -1,15 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
-@import "variables";
+@import 'variables';
 @import 'helpers';
 
 html,body {
     font-family: $font-family-sans-serif;
 }
 
+#Navbar {
+    background-color: $navbar-default-bg;
+    > .container {
+        > .navbar-menu > .navbar-end > .navbar-item {
+            color:$navbar-default-link;
+            font-size:0.85em;
+        }
+
+        > .navbar-menu > .navbar-end > .navbar-item:hover {
+            color:$navbar-active-link;
+        }
+
+        > .navbar-menu > .navbar-end > .is-active {
+            color:$navbar-active-link;
+        }
+    }
+}
+
 #Footer {
-    > .navbar {
-        > .container > .navbar-end > .navbar-item {
-        color:$footer-text-color
+    background-color: $footer-default-bg;
+    
+    > .container {
+        color:$footer-text-color;
+
+        > .level > .level-item > .social-link > .icon {
+            color:$footer-text-color;
         }
     }
 }

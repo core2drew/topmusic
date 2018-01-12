@@ -6,19 +6,8 @@
   background-size:cover;
 
   > .hero-head {
-    background-color: $navbar-default-bg;
-
-    > .navbar > .container > .navbar-menu > .navbar-end > .navbar-item {
-      color:$navbar-default-link;
-      font-size:0.85em;
-    }
-
-    > .navbar > .container > .navbar-menu > .navbar-end > .navbar-item:hover {
-      color:$navbar-active-link;
-    }
-
-    > .navbar > .container > .navbar-menu > .navbar-end > .is-active {
-      color:$navbar-active-link;
+    > #Navbar {
+      background-color: rgba(18, 18, 18, 0.6);
     }
   }
 
@@ -26,5 +15,9 @@
     > .container > .title {
       color:#fff;
     }
+  }
+
+  > #Footer {
+    background-color: transparent;
   }
 }

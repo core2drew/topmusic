@@ -1,0 +1,54 @@
+@import "variables";
+@import 'mixins';
+
+#WhoWeAre {
+  > #Attitudes {
+    background-color: $theme-primary-red;
+    color: #fff;
+    > .hero-body {
+      > .container > .subtitle  {
+        color: #fff;
+        margin-bottom: 40px;
+      }
+
+      > .container > .level {
+        @include align-items(baseline);
+      }
+
+      > .container > .columns > .column > .title{
+
+        color:#fff;
+        padding:10px 0;
+      }
+
+      > .container > .columns > .column > .details{
+        font-size: 0.9em;
+      }
+
+      > .container > .columns > .column > .icon {
+        font-size: 5em;
+        width:initial;
+        height:initial;
+      }
+    }
+  }
+  > #TheTeam {
+    > .hero {
+      background-color: rgb(18, 18, 18);
+    }
+
+    > .hero > .hero-body {
+      padding: 2em 1.5em;
+    }
+    
+    > .hero > .hero-body > .container > .title {
+      color: #fff;
+      font-size: 2.5em;
+      
+    }
+  }
+
+  > #Footer {
+    background-color: $footer-default-bg;
+  }
+}

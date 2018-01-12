@@ -1,22 +1,20 @@
-<div id="Footer" class="hero-foot">
-  <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+<div id="Footer" class="footer is-paddingless">
     <div class="container">
-      <div class="navbar-brand">
-        <a class="navbar-item is-size-5 _padding-rightless">
-          <span class="icon-facebook"></span>
-        </a>
-        <a class="navbar-item is-size-5 _padding-rightless">
-          <span class="icon-twitter"></span>
-        </a>
-        <a class="navbar-item is-size-5 _padding-rightless">
-          <span class="icon-instagram"></span>
-        </a>
-      </div>
-      <div class="navbar-end">
-        <p class="navbar-item is-size-7">
-          © 2018 Top Music Management. All rights reserved.
-        <p>
-      </div>
+        <div class="level">
+          <div class="level-item level-left social-media">
+            <a class="is-size-5 _padding-rightless social-link">
+              <span class="icon-facebook icon is-medium"></span>
+            </a>
+            <a class="is-size-5 _padding-rightless social-link">
+              <span class="icon-twitter icon is-medium"></span>
+            </a>
+            <a class="is-size-5 _padding-rightless social-link">
+              <span class="icon-instagram icon is-medium"></span>
+            </a>
+          </div>
+          <p class="level-item level-right is-size-7">
+            © 2018 Top Music Management. All rights reserved.
+          <p>
+        </div>
     </div>
-  </nav>
 </div>
