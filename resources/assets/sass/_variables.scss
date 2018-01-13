@@ -4,6 +4,7 @@ $body-bg: #f5f8fa;
 
 //Theme Color
 $theme-primary-red:#ff1d25;
+$theme-primary-black: #121212;
 
 // Borders
 $laravel-border-color: darken($body-bg, 10%);
@@ -25,16 +26,17 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 $font-family-sans-serif: "Lato", sans-serif;
 $font-size-base: 16px;
 $line-height-base: 1.6;
-$text-color: #636b6f;
+$text-color: $theme-primary-black;
 
 // Navbar
-$navbar-default-bg: rgb(18, 18, 18);
+$navbar-default-bg: $theme-primary-black;
 $navbar-default-link: #fff;
-$navbar-active-link: #ff1d25;
+$navbar-active-link: $theme-primary-red;
 
 // Footer
-$footer-default-bg: rgb(18, 18, 18);
+$footer-default-bg: $theme-primary-black;
 $footer-text-color:#fff;
+$footer-link-hover: $theme-primary-red;
 
 // Buttons
 $btn-default-color: $text-color;

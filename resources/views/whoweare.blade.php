@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-<section id="WhoWeAre">
+<div id="WhoWeAre">
   @include('navbar')
   <section id="AboutUs" class="hero">
     <div class="hero-body">
@@ -88,7 +88,7 @@
     </div>
   </section>
   <section id="TheTeam">
-    <section class="header hero">
+    <section class="hero">
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title">
@@ -98,39 +98,85 @@
       </div>
     </section>
     <div class="container">
-      <div class="box">
-        <article class="media">
-          <div class="media-left">
-            <figure class="image">
-              <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-            </figure>
-          </div>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-                <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-              </p>
-            </div>
-            <nav class="level is-mobile">
-              <div class="level-left">
-                <a class="level-item">
-                  <span class="icon is-small"><i class="fas fa-reply"></i></span>
-                </a>
-                <a class="level-item">
-                  <span class="icon is-small"><i class="fas fa-retweet"></i></span>
-                </a>
-                <a class="level-item">
-                  <span class="icon is-small"><i class="fas fa-heart"></i></span>
-                </a>
+      <div class="columns">
+        <div class="column is-10 is-offset-1">
+          <div class="box is-shadowless">
+            <article class="media">
+              <div class="media-left">
+                <figure class="profile-image">
+                  <img class="image" src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                </figure>
               </div>
-            </nav>
+              <div class="media-content">
+                <div class="content">
+                  <div class="name">
+                    <h3 class="has-text-weight-semibold is-size-5 is-marginless">Ckatiuscka Ribadeneira</h3>
+                    <label>Founder & CEO</label>
+                  </div>
+                  <p>
+                    Ckatu believes in dreams and loves working with the dreamers
+                    that work hard to make them come true. As a former Management 
+                    Consultant in one of  the top Fortune Global 500 companies she 
+                    enjoys the mix of business and her passion: Music.
+                  </p>
+                </div>
+                <nav class="level">
+                  <div class="level-left">
+                    <a class="level-item social-link is-size-5">
+                      <span class="icon-facebook icon"></span>
+                    </a>
+                    <a class="level-item social-link is-size-5">
+                      <span class="icon-twitter icon"></span>
+                    </a>
+                    <a class="level-item social-link is-size-5">
+                      <span class="icon-instagram icon"></span>
+                    </a>
+                  </div>
+                </nav>
+              </div>
+            </article>
           </div>
-        </article>
+
+          <div class="box is-shadowless">
+            <article class="media">
+              <div class="media-right">
+                <figure class="profile-image">
+                  <img class="image" src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <div class="name">
+                    <h3 class="has-text-weight-semibold is-size-5 is-marginless">Mikayla Witholt</h3>
+                    <label>Management Assistant</label>
+                  </div>
+                  <p>
+                    Mikay is an amazing friend and co-worker, who knows how to 
+                    strive for what she believes. Working for a while in the Music 
+                    Industry and studying at the HBA she knows her way around
+                    and is the perfect complement to the team.
+                  </p>
+                </div>
+                <nav class="level">
+                  <div class="level-left">
+                    <a class="level-item social-link is-size-5">
+                      <span class="icon-facebook icon"></span>
+                    </a>
+                    <a class="level-item social-link is-size-5">
+                      <span class="icon-twitter icon"></span>
+                    </a>
+                    <a class="level-item social-link is-size-5">
+                      <span class="icon-instagram icon"></span>
+                    </a>
+                  </div>
+                </nav>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  @include('footer')
-</section>
+  @include('footer', ['class'=>'default'])
+</div>
 @stop

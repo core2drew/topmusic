@@ -18,11 +18,13 @@ mix
     .sass('resources/assets/sass/app.scss', 'public/css/build')
     .sass('resources/assets/sass/landing.scss', 'public/css/build')
     .sass('resources/assets/sass/whoweare.scss', 'public/css/build')
+    .sass('resources/assets/sass/whatwedo.scss', 'public/css/build')
     .sass('node_modules/bulma/bulma.sass', 'public/css')
     .styles([
         'public/css/build/app.css',
         'public/css/build/landing.css',
-        'public/css/build/whoweare.css'
+        'public/css/build/whoweare.css',
+        'public/css/build/whatwedo.css'
     ], 'public/css/app.css')
 
     

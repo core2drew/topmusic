@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-<section id="LandingPage" class="hero is-fullheight">
+<div id="LandingPage" class="hero is-fullheight">
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
     @include('navbar')
@@ -18,6 +18,6 @@
     </div>
   </div>
 
-  @include('footer')
-</section>
+  @include('footer', ['class'=>'transparent'])
+</div>
 @stop

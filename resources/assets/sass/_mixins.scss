@@ -4,3 +4,10 @@
 	-moz-align-items: $position;
 	-webkit-align-items: $position;
 }
+
+@mixin flex-direction($position)
+{
+	flex-direction: $position;
+	-moz-flex-direction: $position;
+	-webkit-flex-directions: $position;
+}

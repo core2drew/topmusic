@@ -44,11 +44,31 @@
     > .hero > .hero-body > .container > .title {
       color: #fff;
       font-size: 2.5em;
-      
     }
-  }
 
-  > #Footer {
-    background-color: $footer-default-bg;
+    > .container > .columns > .column > .box:nth-child(even) > .media {
+      @include flex-direction(row-reverse);
+    }
+
+    > .container > .columns > .column > .box > .media > .media-left > .profile-image > .image,
+    > .container > .columns > .column > .box > .media > .media-right > .profile-image > .image{
+      width:250px;
+    }
+
+    > .container > .columns > .column > .box > .media > .media-content > .content > .name {
+      margin-bottom: 10px;
+    }
+
+    > .container > .columns > .column > .box > .media > .media-content > .level > .level-left > .social-link {
+      margin-right: 5px;
+    }
+
+    > .container > .columns > .column > .box > .media > .media-content > .level > .level-left > .social-link > .icon {
+      color: $text-color;
+    }
+
+    > .container > .columns > .column > .box > .media > .media-content > .level > .level-left > .social-link > .icon:hover {
+      color:$theme-primary-red
+    }
   }
 }

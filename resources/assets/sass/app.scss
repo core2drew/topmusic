@@ -25,13 +25,23 @@ html,body {
 }
 
 #Footer {
-    background-color: $footer-default-bg;
+    &.default {
+        background-color: $footer-default-bg;
+    }
+
+    &.transparent {
+        background-color: transparent;
+    }
     
     > .container {
         color:$footer-text-color;
 
         > .level > .level-item > .social-link > .icon {
             color:$footer-text-color;
+        }
+
+        > .level > .level-item > .social-link > .icon:hover {
+            color:$footer-link-hover;
         }
     }
 }

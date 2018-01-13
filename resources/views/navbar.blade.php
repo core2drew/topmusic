@@ -18,7 +18,7 @@
         <a href="whoweare" class="{{ Request::segment(1) == 'whoweare' ? 'is-active' : null }} navbar-item is-uppercase">
           Who We Are
         </a>
-        <a class="navbar-item is-uppercase">
+        <a href="whatwedo" class="{{ Request::segment(1) == 'whatwedo' ? 'is-active' : null }} navbar-item is-uppercase">
           What We Do
         </a>
         <a class="navbar-item is-uppercase">

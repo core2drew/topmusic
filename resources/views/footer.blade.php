@@ -1,4 +1,4 @@
-<div id="Footer" class="footer is-paddingless">
+<div id="Footer" class="{{ $class }} footer is-paddingless">
     <div class="container">
         <div class="level">
           <div class="level-item level-left social-media">
