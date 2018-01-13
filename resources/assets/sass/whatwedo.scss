@@ -1,3 +1,5 @@
+@import 'mixins';
+
 #WhatWeDo {
   > #Services {
     > .hero-body {
@@ -6,6 +8,16 @@
         font-size: 5em;
         width:initial;
         height:initial;
+      }
+      
+    }
+  }
+
+  > #Operating {
+    > .hero-body {
+
+      > .container > .columns > .column{
+        @include align-items(center);
       }
     }
   }

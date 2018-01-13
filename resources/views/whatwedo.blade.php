@@ -74,6 +74,27 @@
       </div>
     </div>
   </section>
+
+  <section id="Operating" class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-3 is-flex">
+            <p class="is-size-5 has-text-weight-semibold">
+              We are currently operating<br/>
+              in South America, Europe and<br/>
+              opening new markets in Asia<br/>
+              and the MENA Region.<br/> 
+              Our headquarter is in<br/>
+              Amsterdam.
+            </p>
+          </div>
+          <div class="column has-text-centered is-7">
+            <img src="images/whatwedo/map.png"/>
+          </div>
+      </div>
+    </div>
+  </section>
   @include('footer', ['class'=>'default'])
 </div>
 @stop
