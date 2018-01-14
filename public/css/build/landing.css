@@ -1,0 +1,13 @@
+#LandingPage {
+  background-image: url("../images/landing/landing-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#LandingPage > .hero-head > #Navbar {
+  background-color: rgba(18, 18, 18, 0.6);
+}
+
+#LandingPage > .hero-body > .container > .title {
+  color: #fff;
+}

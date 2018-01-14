@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);._initial-maxheight {
+  max-height: initial !important;
+}
+
+._initial-maxwidth {
+  max-width: initial !important;
+}
+
+._initial-height {
+  height: initial !important;
+}
+
+._initial-width {
+  width: initial !important;
+}
+
+._padding-leftless {
+  padding-left: 0 !important;
+}
+
+._padding-rightless {
+  padding-right: 0 !important;
+}
+
+html, body {
+  font-family: "Lato", sans-serif;
+}
+
+#Navbar {
+  background-color: #121212;
+}
+
+#Navbar > .container > .navbar-menu > .navbar-end > .navbar-item {
+  color: #fff;
+  font-size: 0.85em;
+}
+
+#Navbar > .container > .navbar-menu > .navbar-end > .navbar-item:hover {
+  color: #ff1d25;
+}
+
+#Navbar > .container > .navbar-menu > .navbar-end > .is-active {
+  color: #ff1d25;
+}
+
+#Footer.default {
+  background-color: #121212;
+}
+
+#Footer.transparent {
+  background-color: transparent;
+}
+
+#Footer > .container {
+  color: #fff;
+}
+
+#Footer > .container > .level > .level-item > .social-link > .icon {
+  color: #fff;
+}
+
+#Footer > .container > .level > .level-item > .social-link > .icon:hover {
+  color: #ff1d25;
+}

@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);._initial-maxheight {
+  max-height: initial !important;
+}
+
+._initial-maxwidth {
+  max-width: initial !important;
+}
+
+._initial-height {
+  height: initial !important;
+}
+
+._initial-width {
+  width: initial !important;
+}
+
+._padding-leftless {
+  padding-left: 0 !important;
+}
+
+._padding-rightless {
+  padding-right: 0 !important;
+}
+
+html, body {
+  font-family: "Lato", sans-serif;
+}
+
+#Navbar {
+  background-color: #121212;
+}
+
+#Navbar > .container > .navbar-menu > .navbar-end > .navbar-item {
+  color: #fff;
+  font-size: 0.85em;
+}
+
+#Navbar > .container > .navbar-menu > .navbar-end > .navbar-item:hover {
+  color: #ff1d25;
+}
+
+#Navbar > .container > .navbar-menu > .navbar-end > .is-active {
+  color: #ff1d25;
+}
+
+#Footer.default {
+  background-color: #121212;
+}
+
+#Footer.transparent {
+  background-color: transparent;
+}
+
+#Footer > .container {
+  color: #fff;
+}
+
+#Footer > .container > .level > .level-item > .social-link > .icon {
+  color: #fff;
+}
+
+#Footer > .container > .level > .level-item > .social-link > .icon:hover {
+  color: #ff1d25;
+}
+
+#LandingPage {
+  background-image: url("../images/landing/landing-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#LandingPage > .hero-head > #Navbar {
+  background-color: rgba(18, 18, 18, 0.6);
+}
+
+#LandingPage > .hero-body > .container > .title {
+  color: #fff;
+}
+
+#WhoWeAre > #Attitudes {
+  background-color: #ff1d25;
+  color: #fff;
+}
+
+#WhoWeAre > #Attitudes > .hero-body > .container > .subtitle {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+#WhoWeAre > #Attitudes > .hero-body > .container > .level {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -moz-align-items: baseline;
+  -webkit-align-items: baseline;
+}
+
+#WhoWeAre > #Attitudes > .hero-body > .container > .columns > .column > .title {
+  color: #fff;
+  padding: 10px 0;
+}
+
+#WhoWeAre > #Attitudes > .hero-body > .container > .columns > .column > .details {
+  font-size: 0.9em;
+}
+
+#WhoWeAre > #Attitudes > .hero-body > .container > .columns > .column > .icon {
+  font-size: 5em;
+  width: initial;
+  height: initial;
+}
+
+#WhoWeAre > #TheTeam > .hero {
+  background-color: #121212;
+}
+
+#WhoWeAre > #TheTeam > .hero > .hero-body {
+  padding: 2em 1.5em;
+}
+
+#WhoWeAre > #TheTeam > .hero > .hero-body > .container > .title {
+  color: #fff;
+  font-size: 2.5em;
+}
+
+#WhoWeAre > #TheTeam > .container > .columns > .column > .box:nth-child(even) > .media {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  -webkit-flex-directions: row-reverse;
+}
+
+#WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-left > .profile-image > .image,
+#WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-right > .profile-image > .image {
+  width: 250px;
+}
+
+#WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-content > .content > .name {
+  margin-bottom: 10px;
+}
+
+#WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-content > .level > .level-left > .social-link {
+  margin-right: 5px;
+}
+
+#WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-content > .level > .level-left > .social-link > .icon {
+  color: #121212;
+}
+
+#WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-content > .level > .level-left > .social-link > .icon:hover {
+  color: #ff1d25;
+}
+
+#WhatWeDo > #Services > .hero-body > .container > .columns > .column > .icon {
+  font-size: 5em;
+  width: initial;
+  height: initial;
+}
+
+#WhatWeDo > #Operating > .hero-body > .container > .columns > .column {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+}
