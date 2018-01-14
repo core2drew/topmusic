@@ -2,8 +2,10 @@
 
 @section('content')
 <div id="WhoWeAre">
-  @include('navbar')
   <section id="AboutUs" class="hero">
+    <div class="hero-head">
+      @include('navbar')
+    </div>
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title is-size-2">

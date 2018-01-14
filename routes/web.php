@@ -22,3 +22,7 @@ Route::get('/whoweare', function(){
 Route::get('/whatwedo', function(){
     return view('whatwedo');
 });
+
+Route::get('/clients', function(){
+    return view('clients');
+});

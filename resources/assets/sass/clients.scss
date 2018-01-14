@@ -1,0 +1,26 @@
+@import 'mixins';
+
+#Clients {
+  height:100%;
+
+  > .container {
+    height:100%;
+
+    > .columns {
+      height:100%;
+    }
+    
+    > .columns > .column {
+      @include flex-direction(column);
+      @include justify-content(flex-end);
+      @include align-items(center);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    > .columns > .column > .logo {
+      width: 70%;
+    }
+  }
+}

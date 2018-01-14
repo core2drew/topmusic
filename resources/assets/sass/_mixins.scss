@@ -11,3 +11,19 @@
 	-moz-flex-direction: $position;
 	-webkit-flex-directions: $position;
 }
+
+@mixin justify-content($position)
+{
+	justify-content:$position;
+	-moz-justify-content:$position;
+	-webkit-justify-content:$position;
+}
+
+
+@mixin height-size($val:100px)
+{
+	height: calc($val);
+	height: -moz-calc(100% - $val);
+	height: -o-calc(100% - $val);
+	height: -webkit-calc(100% - $val);
+} 

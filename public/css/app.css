@@ -24,6 +24,8 @@
 
 html, body {
   font-family: "Lato", sans-serif;
+  height: 100%;
+  min-height: 100%;
 }
 
 #Navbar {
@@ -165,4 +167,42 @@ html, body {
           align-items: center;
   -moz-align-items: center;
   -webkit-align-items: center;
+}
+
+#Clients {
+  height: 100%;
+}
+
+#Clients > .container {
+  height: 100%;
+}
+
+#Clients > .container > .columns {
+  height: 100%;
+}
+
+#Clients > .container > .columns > .column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -moz-flex-direction: column;
+  -webkit-flex-directions: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#Clients > .container > .columns > .column > .logo {
+  width: 70%;
 }
