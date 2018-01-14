@@ -41,6 +41,7 @@ html,body {
         color:$footer-text-color;
 
         > .level > .level-item > .social-link > .icon {
+            @include transition(color 0.5s);
             color:$footer-text-color;
         }
 

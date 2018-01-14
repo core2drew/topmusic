@@ -23,7 +23,7 @@
     }
 
     > .columns > .column > .shader {
-      @include transition(all 0.2s);
+      @include transition(background-color 0.2s);
       position: absolute;
       height:100%;
       width:100%;
@@ -35,7 +35,7 @@
     }
 
     > .columns > .column > .logo {
-      @include transition(all 0.5s);
+      @include transition(opacity 0.5s);
       position: relative;
       z-index: 1;
       width: 60%;

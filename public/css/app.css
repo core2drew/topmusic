@@ -60,6 +60,8 @@ html, body {
 }
 
 #Footer > .container > .level > .level-item > .social-link > .icon {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
   color: #fff;
 }
 
@@ -210,8 +212,8 @@ html, body {
 }
 
 #Clients > .container > .columns > .column > .shader {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -223,8 +225,8 @@ html, body {
 }
 
 #Clients > .container > .columns > .column > .logo {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
   position: relative;
   z-index: 1;
   width: 60%;

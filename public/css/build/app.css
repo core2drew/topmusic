@@ -60,6 +60,8 @@ html, body {
 }
 
 #Footer > .container > .level > .level-item > .social-link > .icon {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
   color: #fff;
 }
 
