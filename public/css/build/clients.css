@@ -3,7 +3,9 @@
 }
 
 #Clients > .container {
-  height: 100%;
+  height: calc(100% - 93px);
+  height: -o-calc(100% - 93px);
+  height: -webkit-calc(100% - 93px);
 }
 
 #Clients > .container > .columns {
@@ -30,8 +32,32 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 0;
+  position: relative;
+}
+
+#Clients > .container > .columns > .column > .shader {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+#Clients > .container > .columns > .column:hover > .shader {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #Clients > .container > .columns > .column > .logo {
-  width: 70%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 1;
+  width: 60%;
+  opacity: 0;
+}
+
+#Clients > .container > .columns > .column:hover > .logo {
+  opacity: 1;
 }

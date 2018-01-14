@@ -19,11 +19,17 @@
 	-webkit-justify-content:$position;
 }
 
-
-@mixin height-size($val:100px)
+@mixin height-calc($val)
 {
-	height: calc($val);
-	height: -moz-calc(100% - $val);
-	height: -o-calc(100% - $val);
-	height: -webkit-calc(100% - $val);
+	height: calc(#{$val});
+	height: -moz-calc(#{$val});
+	height: -o-calc(#{$val});
+	height: -webkit-calc(#{$val});
 } 
+
+@mixin transition($transition...) {
+	-moz-transition:    $transition;
+	-o-transition:      $transition;
+	-webkit-transition: $transition;
+	transition:         $transition;
+}

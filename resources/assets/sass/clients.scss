@@ -4,7 +4,7 @@
   height:100%;
 
   > .container {
-    height:100%;
+    @include height-calc("100% - 93px");
 
     > .columns {
       height:100%;
@@ -17,10 +17,33 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+      padding: 0;
+      position: relative;
+      
+    }
+
+    > .columns > .column > .shader {
+      @include transition(all 0.2s);
+      position: absolute;
+      height:100%;
+      width:100%;
+      background-color: transparent;
+    }
+
+    > .columns > .column:hover > .shader {
+      background-color: rgba(0,0,0, 0.5);
     }
 
     > .columns > .column > .logo {
-      width: 70%;
+      @include transition(all 0.5s);
+      position: relative;
+      z-index: 1;
+      width: 60%;
+      opacity: 0;
+    }
+
+    > .columns > .column:hover > .logo {
+      opacity: 1;
     }
   }
 }

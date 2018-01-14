@@ -35,6 +35,8 @@ html, body {
 #Navbar > .container > .navbar-menu > .navbar-end > .navbar-item {
   color: #fff;
   font-size: 0.85em;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
 }
 
 #Navbar > .container > .navbar-menu > .navbar-end > .navbar-item:hover {
