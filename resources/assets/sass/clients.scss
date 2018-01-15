@@ -1,13 +1,10 @@
 @import 'mixins';
 
 #Clients {
-  height:100%;
-
   > .container {
-    @include height-calc("100% - 93px");
 
     > .columns {
-      height:100%;
+      height: calc(100vh - 93px);
     }
     
     > .columns > .column {
