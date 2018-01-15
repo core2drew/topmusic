@@ -35,8 +35,8 @@ html, body {
 #Navbar > .container > .navbar-menu > .navbar-end > .navbar-item {
   color: #fff;
   font-size: 0.85em;
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 #Navbar > .container > .navbar-menu > .navbar-end > .navbar-item:hover {
@@ -60,8 +60,8 @@ html, body {
 }
 
 #Footer > .container > .level > .level-item > .social-link > .icon {
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
   color: #fff;
 }
 

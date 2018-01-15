@@ -24,7 +24,7 @@
         <a href="clients" class="{{ Request::segment(1) == 'clients' ? 'is-active' : null }} navbar-item is-uppercase">
           Clients
         </a>
-        <a class="navbar-item is-uppercase">
+        <a href="contactus" class="{{ Request::segment(1) == 'contactus' ? 'is-active' : null }} navbar-item is-uppercase">
           Contacts
         </a>
       </div>

@@ -67,6 +67,8 @@
 }
 
 #WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-content > .level > .level-left > .social-link > .icon {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
   color: #121212;
 }
 

@@ -26,3 +26,7 @@ Route::get('/whatwedo', function(){
 Route::get('/clients', function(){
     return view('clients');
 });
+
+Route::get('/contactus', function(){
+    return view('contactus');
+});

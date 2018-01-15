@@ -1,0 +1,40 @@
+@import 'mixins';
+@import "variables";
+
+#ContactUs {
+  height:100%;
+
+  > .container {
+    @include height-calc("100% - 93px");
+
+    > .columns {
+      height:100%;
+    }
+
+    > .columns > #Form > .field:nth-child(n + 2) {
+      margin-top: 25px;
+    }
+
+    > .columns > #Details > .details {
+      margin-bottom: 10px;
+    }
+   
+    > .columns > #Details > .details > .level-item:nth-child(2) {
+      @include justify-content(baseline);
+      margin-left: 15px;
+    }
+
+    > .columns > #Details > #Social {
+      margin-top:15px;
+    }
+
+    > .columns > #Details > #Social > .level-item > .social-link{
+      background-color:$theme-primary-red;
+      color:#fff;
+    }
+
+    > .columns > #Details > #Social > .level-item > .social-link:nth-last-child(n + 2) {
+      margin-right: 15px;
+    }
+  }
+}

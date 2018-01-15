@@ -15,7 +15,7 @@ html,body {
         > .navbar-menu > .navbar-end > .navbar-item {
             color:$navbar-default-link;
             font-size:0.85em;
-            @include transition(color 0.2s);
+            @include transition(color 0.3s);
         }
 
         > .navbar-menu > .navbar-end > .navbar-item:hover {
@@ -41,7 +41,7 @@ html,body {
         color:$footer-text-color;
 
         > .level > .level-item > .social-link > .icon {
-            @include transition(color 0.5s);
+            @include transition(color 0.3s);
             color:$footer-text-color;
         }
 
