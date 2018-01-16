@@ -31,4 +31,6 @@ mix
         'public/css/build/contactus.css'
     ], 'public/css/app.css')
 
+    .scripts('resources/assets/js/main.js','public/js/main.js')
+
     

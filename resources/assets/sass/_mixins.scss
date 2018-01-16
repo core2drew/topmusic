@@ -1,3 +1,11 @@
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
 @mixin align-items($position)
 {
 	align-items: $position;
@@ -39,4 +47,12 @@
 	-o-transition:      $transition;
 	-webkit-transition: $transition;
 	transition:         $transition;
+}
+
+@mixin transform($transforms...) {
+	-moz-transform: $transforms;
+		-o-transform: $transforms;
+	 -ms-transform: $transforms;
+-webkit-transform: $transforms;
+			 transform: $transforms;
 }

@@ -4,13 +4,13 @@
       <a class="navbar-item">
         <img class="_initial-maxheight" src="images/logo/logo-267x45.png" alt="Logo">
       </a>
-      <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+      <span class="navbar-burger burger is-flex-tablet-only is-flex-mobile" data-target="navbarMenuHeroC">
         <span></span>
         <span></span>
         <span></span>
       </span>
     </div>
-    <div id="navbarMenuHeroC" class="navbar-menu">
+    <div id="navbarMenuHeroC" class="navbar-menu has-text-centered-touch">
       <div class="navbar-end">
         <a href="/" class="{{ Request::segment(1) == '' ? 'is-active' : null }} navbar-item is-uppercase">
           Home
