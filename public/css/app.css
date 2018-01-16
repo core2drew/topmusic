@@ -28,6 +28,12 @@ html, body {
   min-height: 100%;
 }
 
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 32px;
+}
+
 #Navbar {
   background-color: #121212;
 }
@@ -48,6 +54,9 @@ html, body {
 }
 
 #Footer.default {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #121212;
 }
 
@@ -229,26 +238,17 @@ html, body {
   opacity: 1;
 }
 
-#ContactUs {
-  height: 100%;
-}
-
 #ContactUs > .container {
-  height: calc(100% - 93px);
-  height: -o-calc(100% - 93px);
-  height: -webkit-calc(100% - 93px);
-}
-
-#ContactUs > .container > .columns {
-  height: 100%;
+  margin-top: 30px;
 }
 
 #ContactUs > .container > .columns > #Form > .field:nth-child(n + 2) {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
-#ContactUs > .container > .columns > #Details > .details {
-  margin-bottom: 10px;
+#ContactUs > .container > .columns > #Form > #SendMessage {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 #ContactUs > .container > .columns > #Details > .details > .level-item:nth-child(2) {
@@ -257,6 +257,9 @@ html, body {
           justify-content: baseline;
   -moz-justify-content: baseline;
   -webkit-justify-content: baseline;
+  -ms-flex-shrink: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
   margin-left: 15px;
 }
 

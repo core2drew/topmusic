@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-<div id="WhoWeAre">
+<div id="WhoWeAre" class="wrapper">
   <section id="AboutUs" class="hero">
     <div class="hero-head">
       @include('navbar')

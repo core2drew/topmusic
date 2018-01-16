@@ -2,25 +2,21 @@
 @import "variables";
 
 #ContactUs {
-  height:100%;
 
   > .container {
-    @include height-calc("100% - 93px");
-
-    > .columns {
-      height:100%;
-    }
-
+    margin-top: 30px;
     > .columns > #Form > .field:nth-child(n + 2) {
-      margin-top: 25px;
+      margin-top: 20px;
     }
 
-    > .columns > #Details > .details {
-      margin-bottom: 10px;
+    > .columns > #Form > #SendMessage {
+      padding-left: 25px;
+      padding-right: 25px;
     }
-   
+
     > .columns > #Details > .details > .level-item:nth-child(2) {
       @include justify-content(baseline);
+      @include flex-shrink(1);
       margin-left: 15px;
     }
 

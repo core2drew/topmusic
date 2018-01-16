@@ -9,6 +9,12 @@ html,body {
     min-height:100%;
 }
 
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    padding-bottom:32px;
+}
+
 #Navbar {
     background-color: $navbar-default-bg;
     > .container {
@@ -30,6 +36,9 @@ html,body {
 
 #Footer {
     &.default {
+        position:absolute;
+        bottom:0;
+        width:100%;
         background-color: $footer-default-bg;
     }
 

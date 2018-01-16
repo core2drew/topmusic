@@ -28,6 +28,12 @@ html, body {
   min-height: 100%;
 }
 
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 32px;
+}
+
 #Navbar {
   background-color: #121212;
 }
@@ -48,6 +54,9 @@ html, body {
 }
 
 #Footer.default {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #121212;
 }
 

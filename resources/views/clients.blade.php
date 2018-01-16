@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-<div id="Clients">
+<div id="Clients" class="wrapper">
   @include('navbar')
   <div class="container is-fullhd is-fluid is-marginless">
     <div class="columns is-multiline is-marginless">

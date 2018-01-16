@@ -1,11 +1,11 @@
 @extends('master')
 
 @section('content')
-<div id="ContactUs">
+<div id="ContactUs" class="wrapper">
   @include('navbar')
   <div class="container is-fullhd">
     <div class="columns is-marginless">
-      <div id="Form" class="column is-4 is-offset-2">
+      <form id="Form" action="#" class="column is-4 is-offset-2">
         <div class="field">
           <div class="control">
             <input class="input" type="text" placeholder="Name">
@@ -21,15 +21,15 @@
             <textarea class="textarea" type="text" placeholder="Message" rows="7"></textarea>
           </div>
         </div>
-        <a class="button is-success">Send</a>
-      </div>
+        <button type="submit" id="SendMessage" class="button is-success">Send</button>
+      </form>
       <div id="Details" class="column is-4">
         <div class="details level">
           <div class="level-left">
             <span class="level-item icon icon-location is-size-4"></span>
           </div>
           <p class="level-item">
-            Carolina MacGillavrylaan 357<br/>
+            Carolina MacGillavrylaan 357 
             1098XA Amsterdam
           </p>
         </div>
@@ -51,9 +51,9 @@
         </div>
         <h3 class="is-size-5 is-uppercase has-text-weight-bold">Stay Connected</h3>
         <p>
-          We are so looking forward to hearing from you,<br/>
-          if you want to work with us, have some questions,<br/>
-          or just want to send some love, please take the<br/>
+          We are so looking forward to hearing from you,
+          if you want to work with us, have some questions,
+          or just want to send some love, please take the
           time to say hola!
         </p>
         <div id="Social" class="level">
