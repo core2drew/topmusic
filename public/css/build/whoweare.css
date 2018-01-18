@@ -79,8 +79,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  #WhoWeAre > #TheTeam > .container > .columns > .column > .box:nth-last-child(1) {
+    margin-bottom: 30px;
+  }
   #WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-right,
   #WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-left {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }

@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'helpers';
+@import 'mixins';
+
+#Footer {
+  &.default {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color: $footer-default-bg;
+  }
+
+  &.transparent {
+    background-color: transparent;
+  }
+  
+  > .container {
+    color:$footer-text-color;
+
+    > .level > .level-item > .social-link > .icon {
+        @include transition(color 0.3s);
+        color:$footer-text-color;
+    }
+
+    > .level > .level-item > .social-link > .icon:hover {
+        color:$footer-link-hover;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #Footer {
+    > .container {
+      > .level > .level-item:nth-last-child(1) {
+        margin-top: 1em;
+      }
+    }
+  }  
+}

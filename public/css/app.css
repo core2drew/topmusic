@@ -61,6 +61,14 @@
     -moz-flex-direction: column !important;
     -webkit-flex-directions: column !important;
   }
+  ._flex-column-reverse-mobile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -moz-flex-direction: column-reverse;
+    -webkit-flex-directions: column-reverse;
+  }
   ._flex-content-center-mobile {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
@@ -87,6 +95,99 @@ html, body {
   min-height: 100%;
   position: relative;
   padding-bottom: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding-bottom: 74px;
+  }
+}
+
+._initial-maxheight {
+  max-height: initial !important;
+}
+
+._initial-maxwidth {
+  max-width: initial !important;
+}
+
+._initial-height {
+  height: initial !important;
+}
+
+._initial-width {
+  width: initial !important;
+}
+
+._padding-leftless {
+  padding-left: 0 !important;
+}
+
+._padding-rightless {
+  padding-right: 0 !important;
+}
+
+@media screen and (max-width: 1023px) {
+  ._margin-auto-tablet {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  ._flex-wrap-tablet {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  ._flex-wrap-tablet {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ._margin-less-mobile {
+    margin: 0 !important;
+  }
+  ._margin-leftless-mobile {
+    margin-left: 0 !important;
+  }
+  ._margin-rightless-mobile {
+    margin-right: 0 !important;
+  }
+  ._margin-bottomless-mobile {
+    margin-bottom: 0 !important;
+  }
+  ._margin-topless-mobile {
+    margin-top: 0 !important;
+  }
+  ._flex-column-mobile {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -moz-flex-direction: column !important;
+    -webkit-flex-directions: column !important;
+  }
+  ._flex-column-reverse-mobile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -moz-flex-direction: column-reverse;
+    -webkit-flex-directions: column-reverse;
+  }
+  ._flex-content-center-mobile {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -moz-justify-content: center !important;
+    -webkit-justify-content: center !important;
+  }
+  ._flex-items-center-mobile {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -moz-align-items: center !important;
+    -webkit-align-items: center !important;
+  }
 }
 
 #Navbar {
@@ -168,6 +269,104 @@ html, body {
   color: #ff1d25;
 }
 
+@media screen and (max-width: 1023px) {
+  #Navbar > .container > .navbar-menu {
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: #121212;
+  }
+}
+
+._initial-maxheight {
+  max-height: initial !important;
+}
+
+._initial-maxwidth {
+  max-width: initial !important;
+}
+
+._initial-height {
+  height: initial !important;
+}
+
+._initial-width {
+  width: initial !important;
+}
+
+._padding-leftless {
+  padding-left: 0 !important;
+}
+
+._padding-rightless {
+  padding-right: 0 !important;
+}
+
+@media screen and (max-width: 1023px) {
+  ._margin-auto-tablet {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  ._flex-wrap-tablet {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  ._flex-wrap-tablet {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ._margin-less-mobile {
+    margin: 0 !important;
+  }
+  ._margin-leftless-mobile {
+    margin-left: 0 !important;
+  }
+  ._margin-rightless-mobile {
+    margin-right: 0 !important;
+  }
+  ._margin-bottomless-mobile {
+    margin-bottom: 0 !important;
+  }
+  ._margin-topless-mobile {
+    margin-top: 0 !important;
+  }
+  ._flex-column-mobile {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -moz-flex-direction: column !important;
+    -webkit-flex-directions: column !important;
+  }
+  ._flex-column-reverse-mobile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -moz-flex-direction: column-reverse;
+    -webkit-flex-directions: column-reverse;
+  }
+  ._flex-content-center-mobile {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -moz-justify-content: center !important;
+    -webkit-justify-content: center !important;
+  }
+  ._flex-items-center-mobile {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -moz-align-items: center !important;
+    -webkit-align-items: center !important;
+  }
+}
+
 #Footer.default {
   position: absolute;
   bottom: 0;
@@ -193,20 +392,9 @@ html, body {
   color: #ff1d25;
 }
 
-@media screen and (max-width: 1023px) {
-  #Navbar > .container > .navbar-menu {
-    -webkit-transition: background-color 0.3s;
-    transition: background-color 0.3s;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-    background-color: #121212;
-  }
-}
-
 @media screen and (max-width: 768px) {
-  .wrapper {
-    padding-bottom: 74px;
+  #Footer > .container > .level > .level-item:nth-last-child(1) {
+    margin-top: 1em;
   }
 }
 
@@ -305,9 +493,12 @@ html, body {
 }
 
 @media screen and (max-width: 768px) {
+  #WhoWeAre > #TheTeam > .container > .columns > .column > .box:nth-last-child(1) {
+    margin-bottom: 30px;
+  }
   #WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-right,
   #WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-left {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 

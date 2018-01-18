@@ -66,6 +66,10 @@
     @include flex-direction(column, true);
   }
 
+  ._flex-column-reverse-mobile {
+    @include flex-direction(column-reverse);
+  }
+
   ._flex-content-center-mobile {
     @include justify-content(center);
   }

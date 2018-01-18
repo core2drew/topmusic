@@ -1,5 +1,7 @@
 {
     "/css/build/app.css": "/css/build/app.css",
+    "/css/build/navbar.css": "/css/build/navbar.css",
+    "/css/build/footer.css": "/css/build/footer.css",
     "/css/build/landing.css": "/css/build/landing.css",
     "/css/build/whoweare.css": "/css/build/whoweare.css",
     "/css/build/whatwedo.css": "/css/build/whatwedo.css",

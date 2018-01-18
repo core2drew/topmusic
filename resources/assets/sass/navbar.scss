@@ -1,0 +1,78 @@
+@import 'variables';
+@import 'helpers';
+@import 'mixins';
+
+#Navbar {
+  @include transition(background-color 0.3s);
+  background-color: $navbar-default-bg;
+
+  &.is-active {
+      background-color: $navbar-default-bg !important;
+  }
+ 
+  > .container {
+
+      > .navbar-brand{
+          @include align-items(center);
+      }
+
+      > .navbar-brand > .navbar-item {
+          background-color:transparent !important;
+      }
+
+      > .navbar-brand > .navbar-burger{
+          @include flex-direction(column);
+          @include justify-content(center);
+          @include align-items(center);
+      }
+
+      > .navbar-brand > .navbar-burger > span {
+          background-color:#fff;
+          width:20px;
+          height: 2px;
+          position:static;
+      }
+
+      > .navbar-brand > .navbar-burger.is-active > span:nth-child(1) {
+          @include transform(translateY(8px) rotate(45deg));
+      }
+
+      > .navbar-brand > .navbar-burger.is-active > span:nth-child(3) {
+          @include transform(translateY(-6px) rotate(-45deg));
+      }
+      
+      > .navbar-brand > .navbar-burger > span:nth-last-child(n + 2) {
+          margin-bottom: 5px;
+      }
+
+      > .navbar-menu > .navbar-end > .navbar-item {
+          color:$navbar-default-link;
+          font-size:0.85em;
+          @include transition(color 0.3s);
+      }
+
+      > .navbar-menu > .navbar-end > .navbar-item:hover {
+          background-color:transparent;
+          color:$navbar-active-link;
+      }
+
+      > .navbar-menu > .navbar-end > .is-active {
+          background-color:transparent;
+          color:$navbar-active-link;
+      }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #Navbar {
+      > .container {
+          > .navbar-menu{
+              @include transition(background-color 0.3s);
+              position: absolute;
+              width: 100%;
+              z-index: 1;
+              background-color: $navbar-default-bg;
+          }
+      }
+  }
+}

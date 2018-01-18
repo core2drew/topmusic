@@ -16,6 +16,8 @@ mix.options({
 
 mix
     .sass('resources/assets/sass/app.scss', 'public/css/build')
+    .sass('resources/assets/sass/navbar.scss', 'public/css/build')
+    .sass('resources/assets/sass/footer.scss', 'public/css/build')
     .sass('resources/assets/sass/landing.scss', 'public/css/build')
     .sass('resources/assets/sass/whoweare.scss', 'public/css/build')
     .sass('resources/assets/sass/whatwedo.scss', 'public/css/build')
@@ -24,6 +26,8 @@ mix
     .sass('node_modules/bulma/bulma.sass', 'public/css')
     .styles([
         'public/css/build/app.css',
+        'public/css/build/navbar.css',
+        'public/css/build/footer.css',
         'public/css/build/landing.css',
         'public/css/build/whoweare.css',
         'public/css/build/whatwedo.css',
