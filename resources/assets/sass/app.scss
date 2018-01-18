@@ -115,3 +115,9 @@ html,body {
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding-bottom:74px;
+    }    
+}

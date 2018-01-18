@@ -3,7 +3,7 @@
   color: #fff;
 }
 
-#WhoWeAre > #Attitudes > .hero-body > .container > .subtitle {
+#WhoWeAre > #Attitudes > .hero-body > .container > .columns > .column > .subtitle {
   color: #fff;
   margin-bottom: 40px;
 }
@@ -19,10 +19,6 @@
 #WhoWeAre > #Attitudes > .hero-body > .container > .columns > .column > .title {
   color: #fff;
   padding: 10px 0;
-}
-
-#WhoWeAre > #Attitudes > .hero-body > .container > .columns > .column > .details {
-  font-size: 0.9em;
 }
 
 #WhoWeAre > #Attitudes > .hero-body > .container > .columns > .column > .icon {
@@ -74,4 +70,17 @@
 
 #WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-content > .level > .level-left > .social-link > .icon:hover {
   color: #ff1d25;
+}
+
+@media screen and (max-width: 1023px) {
+  #WhoWeAre > #Attitudes > .hero-body > .container > .columns > .column {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-right,
+  #WhoWeAre > #TheTeam > .container > .columns > .column > .box > .media > .media-left {
+    margin-bottom: 20px;
+  }
 }

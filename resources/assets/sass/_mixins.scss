@@ -6,25 +6,48 @@
   display: flex;
 }
 
-@mixin align-items($position)
+@mixin align-items($position, $important: false)
 {
-	align-items: $position;
-	-moz-align-items: $position;
-	-webkit-align-items: $position;
+	@if $important {
+		align-items: $position !important;
+		-moz-align-items: $position !important;
+		-webkit-align-items: $position !important;
+	}
+
+	@else {
+		align-items: $position;
+		-moz-align-items: $position;
+		-webkit-align-items: $position;
+	}
 }
 
-@mixin flex-direction($position)
+@mixin flex-direction($position, $important: false)
 {
-	flex-direction: $position;
-	-moz-flex-direction: $position;
-	-webkit-flex-directions: $position;
+	@if $important {
+		flex-direction: $position !important;
+		-moz-flex-direction: $position !important;
+		-webkit-flex-directions: $position !important;
+	}
+	@else {
+		flex-direction: $position;
+		-moz-flex-direction: $position;
+		-webkit-flex-directions: $position;
+	}
 }
 
-@mixin justify-content($position)
+@mixin justify-content($position, $important: false)
 {
-	justify-content:$position;
-	-moz-justify-content:$position;
-	-webkit-justify-content:$position;
+	@if $important {
+		justify-content:$position !important;
+		-moz-justify-content:$position  !important;
+		-webkit-justify-content:$position  !important;
+	}
+		
+	@else {
+		justify-content:$position !important;
+		-moz-justify-content:$position  !important;
+		-webkit-justify-content:$position  !important;
+	}
 }
 
 @mixin flex-shrink($shrink) {
@@ -32,6 +55,13 @@
      -moz-flex-shrink: $shrink;
       -ms-flex-shrink: $shrink;
           flex-shrink: $shrink;
+}
+
+@mixin flex-wrap($wrap) {
+  -webkit-flex-wrap: $wrap;
+     -moz-flex-wrap: $wrap;
+      -ms-flex-wrap: $wrap;
+          flex-wrap: $wrap;
 }
 
 @mixin height-calc($val)

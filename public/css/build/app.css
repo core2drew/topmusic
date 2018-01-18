@@ -22,12 +22,58 @@
   padding-right: 0 !important;
 }
 
+@media screen and (max-width: 1023px) {
+  ._margin-auto-tablet {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  ._flex-wrap-tablet {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  ._flex-wrap-tablet {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  ._margin-less-mobile {
+    margin: 0 !important;
+  }
+  ._margin-leftless-mobile {
+    margin-left: 0 !important;
+  }
+  ._margin-rightless-mobile {
+    margin-right: 0 !important;
+  }
   ._margin-bottomless-mobile {
     margin-bottom: 0 !important;
   }
   ._margin-topless-mobile {
     margin-top: 0 !important;
+  }
+  ._flex-column-mobile {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -moz-flex-direction: column !important;
+    -webkit-flex-directions: column !important;
+  }
+  ._flex-content-center-mobile {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -moz-justify-content: center !important;
+    -webkit-justify-content: center !important;
+  }
+  ._flex-items-center-mobile {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -moz-align-items: center !important;
+    -webkit-align-items: center !important;
   }
 }
 
@@ -72,11 +118,11 @@ html, body {
           flex-direction: column;
   -moz-flex-direction: column;
   -webkit-flex-directions: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -moz-justify-content: center;
-  -webkit-justify-content: center;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -moz-justify-content: center !important;
+  -webkit-justify-content: center !important;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -155,5 +201,11 @@ html, body {
     width: 100%;
     z-index: 1;
     background-color: #121212;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding-bottom: 74px;
   }
 }

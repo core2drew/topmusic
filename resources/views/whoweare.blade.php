@@ -37,51 +37,55 @@
   <section id="Attitudes" class="hero">
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h2 class="subtitle is-size-5">
-          Our success is not only do to the quality of our work, it´s down to trust,<br/>
-          attitude and the way we approach our artists, life and music
-        </h2>
         <div class="columns">
-          <div class="column has-text-centered">
+          <div class="column is-8-desktop is-8-tablet is-offset-2-desktop is-offset-2-tablet">
+            <h2 class="subtitle is-size-5">
+              Our success is not only do to the quality of our work, it´s down to trust,
+              attitude and the way we approach our artists, life and music
+            </h2>
+          </div>
+        </div>
+        <div class="columns is-desktop is-flex-tablet _flex-wrap-tablet is-block-mobile">
+          <div class="column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet">
             <span class="icon-passion icon"></span>
-            <h4 class="title is-size-5 has-text-weight-normal is-marginless">Passion</h4>
+            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Passion</h4>
             <p class="details">
-              Our desire to support our<br/>
-              artists to produce good music<br/>
-              and share it with the world runs<br/>
-              deep. Music is our passion thats<br/>
-              why we enjoy every step of the<br/>
-              way with you!<br/>
+              Our desire to support our
+              artists to produce good music
+              and share it with the world runs
+              deep. Music is our passion thats
+              why we enjoy every step of the
+              way with you!
             </p>
           </div>
-          <div class="column has-text-centered">
+          <div class="column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet">
             <span class="icon-success icon"></span>
-            <h4 class="title is-size-5 has-text-weight-normal is-marginless">Success</h4>
+            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Success</h4>
             <p class="details">
-              We are highly motivated to<br/>
-              help you reach beyond limits<br/>
-              and expectations<br/>
+              We are highly motivated to
+              help you reach beyond limits
+              and expectations
             </p>
           </div>
-          <div class="column has-text-centered">
+          <div class="column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet">
             <span class="icon-focus icon"></span>
-            <h4 class="title is-size-5 has-text-weight-normal is-marginless">Focus</h4>
+            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Focus</h4>
             <p class="details">
-              We focus on our artists,<br/>
-              their needs and aspirations,<br/>
-              so we do everything for<br/>
-              their professional<br/>
+              We focus on our artists,
+              their needs and aspirations,
+              so we do everything for
+              their professional
               development
             </p>
           </div>
-          <div class="column has-text-centered">
+          <div class="column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet">
             <span class="icon-party icon"></span>
-            <h4 class="title is-size-5 has-text-weight-normal is-marginless">Party</h4>
+            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Party</h4>
             <p class="details">
-              Top Music Management doesn't<br/>
-              just want the best for you,<br/>
-              we want to make things<br/>
-              happen around the<br/>
+              Top Music Management doesn't
+              just want the best for you,
+              we want to make things
+              happen around the
               gobble, come join us!
             </p>
           </div>
@@ -101,15 +105,15 @@
     </section>
     <div class="container">
       <div class="columns">
-        <div class="column is-10 is-offset-1">
+        <div class="column is-10-desktop is-offset-1-desktop">
           <div class="box is-shadowless">
-            <article class="media">
-              <div class="media-left">
+            <article class="media is-flex-mobile _flex-column-mobile _flex-items-center-mobile">
+              <div class="media-left _margin-rightless-mobile">
                 <figure class="profile-image">
                   <img class="image" src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
                 </figure>
               </div>
-              <div class="media-content">
+              <div class="media-content has-text-centered-mobile">
                 <div class="content">
                   <div class="name">
                     <h3 class="has-text-weight-semibold is-size-5 is-marginless">Ckatiuscka Ribadeneira</h3>
@@ -122,15 +126,15 @@
                     enjoys the mix of business and her passion: Music.
                   </p>
                 </div>
-                <nav class="level">
+                <nav class="level is-flex-mobile _flex-content-center-mobile">
                   <div class="level-left">
-                    <a class="level-item social-link is-size-5">
+                    <a class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-facebook icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5">
+                    <a class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-twitter icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5">
+                    <a class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-instagram icon"></span>
                     </a>
                   </div>
@@ -140,13 +144,13 @@
           </div>
 
           <div class="box is-shadowless">
-            <article class="media">
-              <div class="media-right">
+            <article class="media is-flex-mobile _flex-column-mobile _flex-items-center-mobile">
+              <div class="media-right _margin-leftless-mobile">
                 <figure class="profile-image">
                   <img class="image" src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
                 </figure>
               </div>
-              <div class="media-content">
+              <div class="media-content has-text-centered-mobile">
                 <div class="content">
                   <div class="name">
                     <h3 class="has-text-weight-semibold is-size-5 is-marginless">Mikayla Witholt</h3>
@@ -159,15 +163,15 @@
                     and is the perfect complement to the team.
                   </p>
                 </div>
-                <nav class="level">
+                <nav class="level is-flex-mobile _flex-content-center-mobile">
                   <div class="level-left">
-                    <a class="level-item social-link is-size-5">
+                    <a class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-facebook icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5">
+                    <a class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-twitter icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5">
+                    <a class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-instagram icon"></span>
                     </a>
                   </div>

@@ -6,7 +6,7 @@
     background-color: $theme-primary-red;
     color: #fff;
     > .hero-body {
-      > .container > .subtitle  {
+      > .container > .columns > .column > .subtitle  {
         color: #fff;
         margin-bottom: 40px;
       }
@@ -16,13 +16,8 @@
       }
 
       > .container > .columns > .column > .title{
-
         color:#fff;
         padding:10px 0;
-      }
-
-      > .container > .columns > .column > .details{
-        font-size: 0.9em;
       }
 
       > .container > .columns > .column > .icon {
@@ -70,6 +65,29 @@
 
     > .container > .columns > .column > .box > .media > .media-content > .level > .level-left > .social-link > .icon:hover {
       color:$theme-primary-red
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #WhoWeAre {
+    > #Attitudes {
+      > .hero-body {
+        > .container > .columns > .column {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #WhoWeAre {
+    > #TheTeam {
+      > .container > .columns > .column > .box > .media > .media-right,
+      > .container > .columns > .column > .box > .media > .media-left {
+        margin-bottom:20px;
+      }
     }
   }
 }
