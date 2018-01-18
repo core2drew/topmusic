@@ -14,7 +14,7 @@
           </div>
           <p class="level-item level-right is-size-7 is-block-mobile has-text-centered-mobile">
             © 2018 Top Music Management. All rights reserved.
-          <p>
+          </p>
         </div>
     </div>
 </div>
