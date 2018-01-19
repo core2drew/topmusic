@@ -4,8 +4,8 @@
 <div id="ContactUs" class="wrapper">
   @include('navbar')
   <div class="container is-fullhd">
-    <div class="columns is-marginless">
-      <form id="Form" action="#" class="column is-4 is-offset-2">
+    <div class="columns is-marginless is-centered is-multiline">
+      <form id="Form" action="#" class="column is-5-widescreen is-5-desktop is-8-tablet">
         <div class="field">
           <div class="control">
             <input class="input" type="text" placeholder="Name">
@@ -18,45 +18,45 @@
         </div>
         <div class="field">
           <div class="control">
-            <textarea class="textarea" type="text" placeholder="Message" rows="7"></textarea>
+            <textarea class="textarea" type="text" placeholder="Message" rows="8"></textarea>
           </div>
         </div>
         <button type="submit" id="SendMessage" class="button is-success">Send</button>
       </form>
-      <div id="Details" class="column is-4">
+      <div id="Details" class="column is-5-widescreen is-5-desktop is-8-tablet">
         <div class="details level">
           <div class="level-left">
-            <span class="level-item icon icon-location is-size-4"></span>
+            <span class="level-item icon icon-location is-size-4 is-size-3-mobile _margin-auto-tablet"></span>
           </div>
-          <p class="level-item">
+          <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
             Carolina MacGillavrylaan 357 
             1098XA Amsterdam
           </p>
         </div>
         <div class="details level">
           <div class="level-left">
-            <span class="level-item icon icon-phone is-size-4"></span>
+            <span class="level-item icon icon-phone is-size-4 is-size-3-mobile _margin-auto-tablet"></span>
           </div>
-          <p class="level-item">
+          <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
             +49 176 832 03349
           </p>
         </div>
         <div class="details level">
           <div class="level-left">
-            <span class="level-item icon icon-mail is-size-4"></span>
+            <span class="level-item icon icon-mail is-size-4 is-size-3-mobile _margin-auto-tablet"></span>
           </div>
-          <p class="level-item">
+          <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
             info@topmusicmanagement.com
           </p>
         </div>
-        <h3 class="is-size-5 is-uppercase has-text-weight-bold">Stay Connected</h3>
-        <p>
+        <h3 class="is-size-5 is-uppercase has-text-weight-bold has-text-centered-mobile">Stay Connected</h3>
+        <p class="has-text-centered-mobile">
           We are so looking forward to hearing from you,
           if you want to work with us, have some questions,
           or just want to send some love, please take the
           time to say hola!
         </p>
-        <div id="Social" class="level">
+        <div id="Social" class="level is-hidden-mobile">
           <div class="level-item level-left social-media">
             <a class="is-size-5 _padding-rightless social-link">
               <span class="icon-facebook icon is-medium"></span>

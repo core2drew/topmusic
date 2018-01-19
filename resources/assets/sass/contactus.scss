@@ -4,7 +4,9 @@
 #ContactUs {
 
   > .container {
-    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
     > .columns > #Form > .field:nth-child(n + 2) {
       margin-top: 20px;
     }
@@ -14,8 +16,7 @@
       padding-right: 25px;
     }
 
-    > .columns > #Details > .details > .level-item:nth-child(2) {
-      @include justify-content(baseline);
+    > .columns > #Details > .details > .level-item {
       @include flex-shrink(1);
       margin-left: 15px;
     }
@@ -31,6 +32,22 @@
 
     > .columns > #Details > #Social > .level-item > .social-link:nth-last-child(n + 2) {
       margin-right: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #ContactUs {
+
+    > .container {
+
+      > .columns > #Form > #SendMessage {
+        width:100%;
+      }
+  
+      > .columns > #Details > .details > .level-left {
+        margin-bottom: 10px;
+      }
     }
   }
 }

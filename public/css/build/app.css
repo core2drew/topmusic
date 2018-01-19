@@ -22,11 +22,56 @@
   padding-right: 0 !important;
 }
 
+@media screen and (min-width: 1408px) {
+  ._flex-content-baseline-fullhd {
+    -webkit-box-pack: baseline !important;
+        -ms-flex-pack: baseline !important;
+            justify-content: baseline !important;
+    -moz-justify-content: baseline !important;
+    -webkit-justify-content: baseline !important;
+  }
+}
+
+@media screen and (max-width: 1407px) {
+  ._flex-content-baseline-widescreen {
+    -webkit-box-pack: baseline !important;
+        -ms-flex-pack: baseline !important;
+            justify-content: baseline !important;
+    -moz-justify-content: baseline !important;
+    -webkit-justify-content: baseline !important;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  ._flex-content-baseline-desktop {
+    -webkit-box-pack: baseline !important;
+        -ms-flex-pack: baseline !important;
+            justify-content: baseline !important;
+    -moz-justify-content: baseline !important;
+    -webkit-justify-content: baseline !important;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   ._margin-auto-tablet {
     margin-left: auto !important;
     margin-right: auto !important;
   }
+  ._margin-less-tablet {
+    margin: 0 !important;
+  }
+  ._margin-leftless-tablet {
+    margin-left: 0 !important;
+  }
+  ._margin-rightless-tablet {
+    margin-right: 0 !important;
+  }
+  ._margin-bottomless-tablet {
+    margin-bottom: 0 !important;
+  }
+  ._margin-topless-tablet {
+    margin-top: 0 !important;
+  }
   ._flex-wrap-tablet {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -34,6 +79,21 @@
   ._flex-wrap-tablet {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+  }
+  ._flex-column-reverse-tablet {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -moz-flex-direction: column-reverse;
+    -webkit-flex-directions: column-reverse;
+  }
+  ._flex-content-center-tablet {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -moz-justify-content: center !important;
+    -webkit-justify-content: center !important;
   }
 }
 
