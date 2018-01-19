@@ -83,6 +83,10 @@
     -moz-align-items: center !important;
     -webkit-align-items: center !important;
   }
+  ._flex-wrap-mobile {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
 }
 
 html, body {

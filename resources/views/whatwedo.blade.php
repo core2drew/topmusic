@@ -12,29 +12,29 @@
           Top Music Management offers the following services
         </h1>
 
-        <div class="columns is-centered">
-          <div class="column has-text-centered is-2">
+        <div class="columns is-centered is-flex-mobile _flex-wrap-mobile">
+          <div class="column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile">
             <span class="icon-mic icon"></span>
             <h4 class="title is-size-5 has-text-weight-normal is-marginless">
               Artist<br/>
               Management
             </h4>
           </div>
-          <div class="column has-text-centered is-2">
+          <div class="column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile">
             <span class="icon-rockstar-shirt icon"></span>
             <h4 class="title is-size-5 has-text-weight-normal is-marginless">
               Personal<br/>
               Branding
             </h4>
           </div>
-          <div class="column has-text-centered is-2">
+          <div class="column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile">
             <span class="icon-distance icon"></span>
             <h4 class="title is-size-5 has-text-weight-normal is-marginless">
               Tour<br/>
               Management
             </h4>
           </div>
-          <div class="column has-text-centered is-2">
+          <div class="column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile">
             <span class="icon-favorite-book icon"></span>
             <h4 class="title is-size-5 has-text-weight-normal is-marginless">
               Booking<br/>
@@ -43,29 +43,29 @@
           </div>
         </div>
 
-        <div class="columns is-centered">
-          <div class="column has-text-centered is-2">
+        <div class="columns is-centered is-flex-mobile _flex-wrap-mobile">
+          <div class="column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile">
             <span class="icon-podium icon"></span>
             <h4 class="title is-size-5 has-text-weight-normal is-marginless">
               Strategic Career<br/>
               Planning
             </h4>
           </div>
-          <div class="column has-text-centered is-2">
+          <div class="column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile">
             <span class="icon-social-media-graph icon"></span>
             <h4 class="title is-size-5 has-text-weight-normal is-marginless">
               Marketing<br/>
               and Social Media
             </h4>
           </div>
-          <div class="column has-text-centered is-2">
+          <div class="column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile">
             <span class="icon-search-rockstar icon"></span>
             <h4 class="title is-size-5 has-text-weight-normal is-marginless">
               A&R<br/>
               Consultancy
             </h4>
           </div>
-          <div class="column has-text-centered is-2">
+          <div class="column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile">
             <span class="icon-balance icon"></span>
             <h4 class="title is-size-5 has-text-weight-normal is-marginless">
               Basic Legal<br/>
@@ -80,18 +80,18 @@
   <section id="Operating" class="hero">
     <div class="hero-body">
       <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-3 is-flex">
+        <div class="columns is-centered is-multiline">
+          <div class="column is-3-widescreen is-4-desktop is-8-tablet has-text-centered-touch is-flex">
             <p class="is-size-5 has-text-weight-semibold">
-              We are currently operating<br/>
-              in South America, Europe and<br/>
-              opening new markets in Asia<br/>
-              and the MENA Region.<br/> 
-              Our headquarter is in<br/>
+              We are currently operating
+              in South America, Europe and
+              opening new markets in Asia
+              and the MENA Region.
+              Our headquarter is in
               Amsterdam.
             </p>
           </div>
-          <div class="column has-text-centered is-7">
+          <div class="column is-5-widescreen is-7-desktop is-12-tablet has-text-centered">
             <img src="images/whatwedo/map.png"/>
           </div>
       </div>

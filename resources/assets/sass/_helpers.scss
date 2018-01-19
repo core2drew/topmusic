@@ -77,4 +77,8 @@
   ._flex-items-center-mobile {
     @include align-items(center, true);
   }
+
+  ._flex-wrap-mobile {
+    @include flex-wrap(wrap);
+  }
 }
