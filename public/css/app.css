@@ -38,6 +38,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  ._height-initial-mobile {
+    height: initial !important;
+  }
   ._margin-less-mobile {
     margin: 0 !important;
   }
@@ -147,6 +150,9 @@ html, body {
 }
 
 @media screen and (max-width: 768px) {
+  ._height-initial-mobile {
+    height: initial !important;
+  }
   ._margin-less-mobile {
     margin: 0 !important;
   }
@@ -328,6 +334,9 @@ html, body {
 }
 
 @media screen and (max-width: 768px) {
+  ._height-initial-mobile {
+    height: initial !important;
+  }
   ._margin-less-mobile {
     margin: 0 !important;
   }
@@ -530,7 +539,7 @@ html, body {
 }
 
 #Clients > .container > .columns {
-  height: calc(100vh - 93px);
+  height: calc(100vh - 84px);
 }
 
 #Clients > .container > .columns > .column {

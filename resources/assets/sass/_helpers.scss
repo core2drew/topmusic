@@ -42,6 +42,10 @@
 
 @media screen and (max-width: 768px) {
 
+  ._height-initial-mobile {
+    height: initial !important;
+  }
+
   ._margin-less-mobile {
     margin: 0 !important;
   }
