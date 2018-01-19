@@ -1,4 +1,4 @@
-<header id="Navbar" class="navbar is-transparent">
+<header id="Navbar" class="navbar is-transparent is-fixed-top">
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item">

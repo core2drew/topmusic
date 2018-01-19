@@ -414,6 +414,7 @@ html, body {
   background-image: url("../images/landing/landing-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -3.25rem;
 }
 
 #LandingPage > .hero-head > #Navbar {
