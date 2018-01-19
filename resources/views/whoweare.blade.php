@@ -12,22 +12,22 @@
           We are Top Music Management
         </h1>
         <h2 class="subtitle is-size-5">
-          a young and dynamic Artist Management Company <br/>
+          a young and dynamic Artist Management Company
           focused on the needs of our artists.
         </h2>
 
-        <div class="content">
+        <div class="content column is-8-desktop is-offset-2-desktop">
           <p>
-            We understand artists and their aim to focus on their musical production and performance. However,<br/> 
-            in the music industry artists are subject to pressures 24 hours a day, seven days a week. 
+            We understand artists and their aim to focus on their musical production and performance.
+            However, in the music industry artists are subject to pressures 24 hours a day, seven days a week. 
           </p>
           <p>
-            This is why Top Music Management offers 360-degree support to our clients, providing space for<br/>
+            This is why Top Music Management offers 360-degree support to our clients, providing space for
             creativity and enabling the artist to grow professionally beyond their wildest dreams. 
           </p>
           <p>
-            By devising and executing individually customized career strategies and services we facilitate our<br/>
-            artists to excel. Our aim is to create a partnership, in which our clients can rely on us for their<br/>
+            By devising and executing individually customized career strategies and services we facilitate our
+            artists to excel. Our aim is to create a partnership, in which our clients can rely on us for their
             careers, while they fully focus on what they and what we love: Music.
           </p>
         </div>
