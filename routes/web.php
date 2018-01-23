@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Middleware\VerifyCsrfToken;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,22 +13,44 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/',  [
+    'as' => 'index',
+    'uses' => function(){
+        return view('index');
+    }
+]);
 
-Route::get('/whoweare', function(){
-    return view('whoweare');
-});
+Route::get('/whoweare',  [
+    'as' => 'whoweare',
+    'uses' => function(){
+        return view('whoweare');
+    }
+]);
 
-Route::get('/whatwedo', function(){
-    return view('whatwedo');
-});
+Route::get('/whatwedo',  [
+    'as' => 'whatwedo',
+    'uses' => function(){
+        return view('whatwedo');
+    }
+]);
 
-Route::get('/clients', function(){
-    return view('clients');
-});
+Route::get('/clients',  [
+    'as' => 'clients',
+    'uses' => function(){
+        return view('clients');
+    }
+]);
 
-Route::get('/contactus', function(){
-    return view('contactus');
-});
+Route::get('/contactus',  [
+    'as' => 'contactus',
+    'uses' => function(){
+        return view('contactus');
+    }
+]);
+
+Route::post('/inquiry',  [
+    'as' => 'inquiry',
+    'uses' => function(){
+        return "Hello World";
+    }
+]);

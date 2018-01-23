@@ -5,20 +5,24 @@
   @include('navbar')
   <div class="container is-fullhd">
     <div class="columns is-marginless is-centered is-multiline">
-      <form id="Form" action="#" class="column is-5-widescreen is-5-desktop is-8-tablet">
+      {{ Form::open() }}
+      
+      {{ Form::close() }}
+      <form id="ContactUsForm" method="POST" class="column is-5-widescreen is-5-desktop is-8-tablet">
         <div class="field">
           <div class="control">
-            <input class="input" type="text" placeholder="Name">
+            <input class="input" name="fullname" type="text" placeholder="Name">
+          </div>
+        </div>
+        
+        <div class="field">
+          <div class="control">
+            <input class="input" type="text" name="email" placeholder="Email">
           </div>
         </div>
         <div class="field">
           <div class="control">
-            <input class="input" type="text" placeholder="Email">
-          </div>
-        </div>
-        <div class="field">
-          <div class="control">
-            <textarea class="textarea" type="text" placeholder="Message" rows="8"></textarea>
+            <textarea class="textarea" type="text" name="message" placeholder="Message" rows="8"></textarea>
           </div>
         </div>
         <button type="submit" id="SendMessage" class="button is-success">Send</button>

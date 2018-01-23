@@ -237,6 +237,18 @@ html, body {
   font-size: 0.85em;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+																	supported by Chrome and Opera */
 }
 
 #Navbar > .container > .navbar-menu > .navbar-end > .navbar-item:hover {
@@ -469,13 +481,14 @@ html, body {
   padding-bottom: 40px;
 }
 
-#ContactUs > .container > .columns > #Form > .field:nth-child(n + 2) {
+#ContactUs > .container > .columns > #ContactUsForm > .field:nth-child(n + 2) {
   margin-top: 20px;
 }
 
-#ContactUs > .container > .columns > #Form > #SendMessage {
+#ContactUs > .container > .columns > #ContactUsForm > #SendMessage {
   padding-left: 25px;
   padding-right: 25px;
+  background-color: #1dad4f;
 }
 
 #ContactUs > .container > .columns > #Details > .details > .level-item {

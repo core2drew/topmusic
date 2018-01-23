@@ -7,13 +7,14 @@
     padding-top: 40px;
     padding-bottom: 40px;
 
-    > .columns > #Form > .field:nth-child(n + 2) {
+    > .columns > #ContactUsForm > .field:nth-child(n + 2) {
       margin-top: 20px;
     }
 
-    > .columns > #Form > #SendMessage {
+    > .columns > #ContactUsForm > #SendMessage {
       padding-left: 25px;
       padding-right: 25px;
+      background-color:$theme-primary-green;
     }
 
     > .columns > #Details > .details > .level-item {
