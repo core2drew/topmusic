@@ -13,7 +13,6 @@ use Log;
 class MailController extends Controller
 {
 	public function sendInquiry(Request $request) {
-		return "Hello World";
 		$name = $request->input('name');
 		$email = $request->input('email');
 		$message = $request->input('message');

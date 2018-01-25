@@ -546,7 +546,7 @@ html, body {
 }
 
 @media screen and (max-width: 768px) {
-  #ContactUs > .container > .columns > #Form > #SendMessage {
+  #ContactUs > .container > .columns > #ContactUsForm > #SendMessage {
     width: 100%;
   }
   #ContactUs > .container > .columns > #Details > .details > .level-left {
