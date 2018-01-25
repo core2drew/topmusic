@@ -19,20 +19,37 @@ $(function(){
       }
     });
     
-    $('#ContactUsForm').on('submit',function(){
-      $('#SendMessage').addClass('is-loading')
+    $('#SendMessage').on('click', function(e){
+      e.preventDefault();
+      let $this = $(this)
+      let formData = $("#ContactUsForm").serialize()
+      let notif = $("#Notif")
+
+      $this.addClass('is-loading')
+
       $.ajax({
-        url: '/inquiry',
+        url: 'inquiry',
         type: 'POST',
         dataType: 'JSON',
-        data: $(this).serialize(),
+        data: formData,
         success: function(result) {
-          $('#SendMessage').removeClass('is-loading')
+          console.log(notif);
+          notif.addClass('show')
+          $this.removeClass('is-loading')
         },
         error: function(data){
-          console.log(data)
+          // Log in the console
+          var errors = data;
+          console.log(errors);
         }
       });
+    })
+  }
+
+  function notificationInit(){
+    let notif = $("#Notif")
+    notif.find(".delete").on('click', function(){
+      notif.removeClass('showing')
     })
   }
 

@@ -20,37 +20,35 @@ Route::get('/',  [
     }
 ]);
 
-Route::get('/whoweare',  [
+Route::get('whoweare',  [
     'as' => 'whoweare',
     'uses' => function(){
         return view('whoweare');
     }
 ]);
 
-Route::get('/whatwedo',  [
+Route::get('whatwedo',  [
     'as' => 'whatwedo',
     'uses' => function(){
         return view('whatwedo');
     }
 ]);
 
-Route::get('/clients',  [
+Route::get('clients',  [
     'as' => 'clients',
     'uses' => function(){
         return view('clients');
     }
 ]);
 
-Route::get('/contactus',  [
+Route::get('contactus',  [
     'as' => 'contactus',
     'uses' => function(){
         return view('contactus');
     }
 ]);
 
-Route::post('/inquiry',  [
+Route::post('inquiry',  [
     'as' => 'inquiry',
-    'uses' => function(){
-        return "Hello World";
-    }
+    'uses' => 'MailController@sendInquiry'
 ]);

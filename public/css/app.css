@@ -22,6 +22,11 @@
   padding-right: 0 !important;
 }
 
+._margin-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 @media screen and (min-width: 1408px) {
   ._flex-content-baseline-fullhd {
     -webkit-box-pack: baseline !important;
@@ -474,6 +479,26 @@ html, body {
 
 #Clients > .container > .columns > .column:hover > .logo {
   opacity: 1;
+}
+
+#ContactUs > #Notif {
+  position: absolute;
+  z-index: 100;
+  background-color: #1dad4f;
+  top: -200px;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#ContactUs > #Notif > .showing {
+  top: 0;
+}
+
+#ContactUs > #Notif > .delete {
+  top: 5px;
+  right: 5px;
 }
 
 #ContactUs > .container {

@@ -24,6 +24,11 @@
   padding-right: 0 !important;
 }
 
+._margin-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 @media screen and (min-width: 1408px) {
   ._flex-content-baseline-fullhd {
     @include justify-content(baseline);
