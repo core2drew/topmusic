@@ -16,43 +16,56 @@ $(function(){
   }
 
   function contactUsInit(){
+    let notif = $("#Notif")
+    let $this = $(this)
+    let formData = $("#ContactUsForm").serialize()
+    let isSending = false;
+
     $.ajaxSetup({
       headers: {
-          'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-      }
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+      } 
     });
+
+    let notifTimeout = function(){
+      setTimeout(function(){
+        notif.removeClass('showing').removeClass('is-danger').addClass('is-success')
+        isSending = false
+      }, 5000)
+    }
+
+    notif.find(".delete").on('click', function(){
+      notif.removeClass('showing').removeClass('is-danger').addClass('is-success')
+      isSending = false
+    })
     
     $('#SendMessage').on('click', function(e){
       e.preventDefault();
-      let $this = $(this)
-      let formData = $("#ContactUsForm").serialize()
-      let notif = $("#Notif")
 
+      if(isSending && notif.hasClass('showing')) {
+        return false;
+      }
+
+      isSending = true
       $this.addClass('is-loading')
 
       $.ajax({
         url: 'inquiry',
         type: 'POST',
-        dataType: 'JSON',
         data: formData,
         success: function(result) {
-          console.log(notif);
-          notif.addClass('show')
+          notif.addClass('showing')
           $this.removeClass('is-loading')
+          notifTimeout();
         },
         error: function(data){
-          // Log in the console
           var errors = data;
-          console.log(errors);
+          notif.find('.header').text("Message not sent.")
+          notif.find('.content').text("Something went wrong. Please try again or message us directly to info@topmusicmanagement.com")
+          notif.addClass('showing').removeClass('is-success').addClass('is-danger')
+          notifTimeout();
         }
       });
-    })
-  }
-
-  function notificationInit(){
-    let notif = $("#Notif")
-    notif.find(".delete").on('click', function(){
-      notif.removeClass('showing')
     })
   }
 

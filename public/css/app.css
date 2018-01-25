@@ -484,16 +484,25 @@ html, body {
 #ContactUs > #Notif {
   position: absolute;
   z-index: 100;
-  background-color: #1dad4f;
   top: -200px;
   left: 0;
   right: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  opacity: 0;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
 
-#ContactUs > #Notif > .showing {
+#ContactUs > #Notif.is-success {
+  background-color: #1dad4f;
+}
+
+#ContactUs > #Notif.is-danger {
+  background-color: #ff1d25;
+}
+
+#ContactUs > #Notif.showing {
   top: 0;
+  opacity: 1;
 }
 
 #ContactUs > #Notif > .delete {

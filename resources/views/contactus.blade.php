@@ -5,8 +5,8 @@
   @include('navbar')
   <div id="Notif" class="column is-5-desktop is-6-tablet _margin-auto notification is-success has-text-centered">
     <button class="delete"></button>
-    <h1 class="is-size-4">Thank you for getting in touch!</h1>
-    <p>We appreciate you contacting us. One of our colleagues will get back to you shortly.</p>
+    <h1 class="is-size-4 header">Thank you for getting in touch!</h1>
+    <p class="content">We appreciate you contacting us. One of our colleagues will get back to you shortly.</p>
   </div>
   <div class="container is-fullhd">
     <div class="columns is-marginless is-centered is-multiline">
