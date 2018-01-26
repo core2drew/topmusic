@@ -10,7 +10,7 @@
   </div>
   <div class="container is-fullhd">
     <div class="columns is-marginless is-centered is-multiline">
-      <form id="ContactUsForm" method="POST" action="#" class="column is-5-widescreen is-5-desktop is-8-tablet">
+      <form id="ContactUsForm" method="POST" class="column is-5-widescreen is-5-desktop is-8-tablet">
         <div class="field">
           <div class="control">
             <input id="Fullname" class="input"type="text" name="name" placeholder="Full Name" autocomplete="off">
