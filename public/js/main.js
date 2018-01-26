@@ -25,6 +25,7 @@ $(function(){
     let contactUsForm = $("#ContactUsForm")
     let isSending = false
     let emailField = contactUsForm.find("#Email")
+    let isEmailValid = false
 
     $.ajaxSetup({
       headers: {
@@ -56,9 +57,10 @@ $(function(){
       if(validateEmail(email)){
         $this.removeClass('is-danger')
         label.removeClass('active')
+        emailField = true
         return
       }
-      
+      emailField = false
       label.addClass('active')
       $this.addClass('is-danger')
     })
@@ -81,7 +83,7 @@ $(function(){
         $(i).removeClass('is-danger')
       })
 
-      if(!formErrors.length) {
+      if(!formErrors.length && emailField) {
         isSending = true
         formData = contactUsForm.serialize()
         $this.addClass('is-loading')
@@ -95,6 +97,7 @@ $(function(){
             $this.removeClass('is-loading')
             contactUsForm.find('input[type=text], textarea').removeAttr('disabled')
             contactUsForm.find('input[type=text], textarea').val("")
+            contactUsForm.find('.label').removeClass('active')
             notifTimeout()
           },
           error: function(data){
