@@ -519,6 +519,23 @@ html, body {
   margin-top: 20px;
 }
 
+#ContactUs > .container > .columns > #ContactUsForm > .field > .control > .is-danger {
+  background-color: #fff6f7;
+  border-color: #ff849d;
+}
+
+#ContactUs > .container > .columns > #ContactUsForm > .field > .control > .label {
+  position: absolute;
+  width: 100%;
+  font-size: 0.7em;
+  color: #ff1d25;
+  display: none;
+}
+
+#ContactUs > .container > .columns > #ContactUsForm > .field > .control > .label.active {
+  display: block;
+}
+
 #ContactUs > .container > .columns > #ContactUsForm > #SendMessage {
   padding-left: 25px;
   padding-right: 25px;

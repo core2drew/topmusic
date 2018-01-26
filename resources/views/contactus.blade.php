@@ -13,17 +13,18 @@
       <form id="ContactUsForm" method="POST" action="#" class="column is-5-widescreen is-5-desktop is-8-tablet">
         <div class="field">
           <div class="control">
-            <input class="input"type="text" name="name" placeholder="Full Name" autocomplete="off">
+            <input id="Fullname" class="input"type="text" name="name" placeholder="Full Name" autocomplete="off">
           </div>
         </div>
         <div class="field">
           <div class="control">
-            <input class="input" type="text" name="email" placeholder="Email" autocomplete="off">
+            <input id="Email" class="input" type="text" name="email" placeholder="Email" autocomplete="off">
+            <label class="label has-text-right">Invalid Email</label>
           </div>
         </div>
         <div class="field">
           <div class="control">
-            <textarea class="textarea" type="text" name="message" placeholder="Message" rows="8"></textarea>
+            <textarea id="Message" class="textarea" type="text" name="message" placeholder="Message" rows="8"></textarea>
           </div>
         </div>
         <button id="SendMessage" class="button is-success">Send</button>

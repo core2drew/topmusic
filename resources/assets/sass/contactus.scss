@@ -38,6 +38,23 @@
       margin-top: 20px;
     }
 
+    > .columns > #ContactUsForm > .field > .control > .is-danger {
+      background-color:#fff6f7;
+      border-color:#ff849d;
+    }
+
+    > .columns > #ContactUsForm > .field > .control > .label {
+      position: absolute;
+      width: 100%;
+      font-size: 0.7em;
+      color: $theme-primary-red;
+      display: none;
+    }
+
+    > .columns > #ContactUsForm > .field > .control > .label.active {
+      display: block;
+    }
+
     > .columns > #ContactUsForm > #SendMessage {
       padding-left: 25px;
       padding-right: 25px;
