@@ -58,6 +58,7 @@ $(function(){
         label.removeClass('active')
         return
       }
+      
       label.addClass('active')
       $this.addClass('is-danger')
     })

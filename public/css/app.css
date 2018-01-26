@@ -515,6 +515,10 @@ html, body {
   padding-bottom: 40px;
 }
 
+#ContactUs > .container > .columns > #ContactUsForm > .field:not(:last-child) {
+  margin-bottom: 16px;
+}
+
 #ContactUs > .container > .columns > #ContactUsForm > .field:nth-child(n + 2) {
   margin-top: 20px;
 }
