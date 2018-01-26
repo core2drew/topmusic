@@ -13,12 +13,12 @@
       <form id="ContactUsForm" method="POST" action="#" class="column is-5-widescreen is-5-desktop is-8-tablet">
         <div class="field">
           <div class="control">
-            <input class="input" name="fullname" type="text" placeholder="Name">
+            <input class="input"type="text" name="name" placeholder="Full Name" autocomplete="off">
           </div>
         </div>
         <div class="field">
           <div class="control">
-            <input class="input" type="text" name="email" placeholder="Email">
+            <input class="input" type="text" name="email" placeholder="Email" autocomplete="off">
           </div>
         </div>
         <div class="field">

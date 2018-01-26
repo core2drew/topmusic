@@ -17,9 +17,8 @@ $(function(){
 
   function contactUsInit(){
     let notif = $("#Notif")
-    let $this = $(this)
-    let formData = $("#ContactUsForm").serialize()
-    let isSending = false;
+    let contactUsForm = $("#ContactUsForm")
+    let isSending = false
 
     $.ajaxSetup({
       headers: {
@@ -40,15 +39,17 @@ $(function(){
     })
     
     $('#SendMessage').on('click', function(e){
-      e.preventDefault();
-
+      e.preventDefault()
+      let $this = $(this)
+      let formData = contactUsForm.serialize()
+      
       if(isSending && notif.hasClass('showing')) {
-        return false;
+        return false
       }
 
       isSending = true
       $this.addClass('is-loading')
-
+      contactUsForm.find('input[type=text], textarea').attr('disabled','disabled')
       $.ajax({
         url: 'inquiry',
         type: 'POST',
@@ -56,19 +57,21 @@ $(function(){
         success: function(result) {
           notif.addClass('showing')
           $this.removeClass('is-loading')
-          notifTimeout();
+          contactUsForm.find('input[type=text], textarea').removeAttr('disabled')
+          contactUsForm.find('input[type=text], textarea').val("")
+          notifTimeout()
         },
         error: function(data){
-          var errors = data;
+          var errors = data
           notif.find('.header').text("Message not sent.")
           notif.find('.content').text("Something went wrong. Please try again or message us directly to info@topmusicmanagement.com")
           notif.addClass('showing').removeClass('is-success').addClass('is-danger')
-          notifTimeout();
+          notifTimeout()
         }
       });
     })
   }
 
-  contactUsInit();
+  contactUsInit()
   navbarInit()
 })
