@@ -16,10 +16,10 @@ class MailController extends Controller
 		$name = $request->input('name');
 		$email = $request->input('email');
 		$bodyMessage = $request->get('message');
-		// Mail::send('email_template',compact('name', 'email', 'bodyMessage') , function ($msg) {
-		// 	$msg->subject('Inquiry');
-		// 	$msg->from('inquiry@topmusicmanagement.com', 'Top Music Management Inquiry Form (Do not reply)');
-		// 	$msg->to("info@topmusicmanagement.com");
-		// });
+		Mail::send('email_template',compact('name', 'email', 'bodyMessage') , function ($msg) {
+			$msg->subject('Inquiry');
+			$msg->from('inquiry@topmusicmanagement.com', 'Top Music Management Inquiry Form (Do not reply)');
+			$msg->to("info@topmusicmanagement.com");
+		});
 	}
 }
