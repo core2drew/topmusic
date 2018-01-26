@@ -11,12 +11,12 @@
         <h1 class="title is-size-2">
           We are Top Music Management
         </h1>
-        <h2 class="subtitle is-size-5">
+        <h2 class="column _margin-auto is-6-fullhd is-8-desktop is-9-tablet subtitle is-size-4">
           a young and dynamic Artist Management Company
           focused on the needs of our artists.
         </h2>
 
-        <div class="content column is-8-desktop is-offset-2-desktop">
+        <div class="content column _margin-auto is-7-fullhd is-8-desktop is-9-tablet">
           <p>
             We understand artists and their aim to focus on their musical production and performance.
             However, in the music industry artists are subject to pressures 24 hours a day, seven days a week. 
