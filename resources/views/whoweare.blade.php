@@ -104,7 +104,7 @@
       </div>
     </section>
     <div class="container">
-      <div class="columns">
+      <div class="columns is-marginless">
         <div class="column is-10-desktop is-offset-1-desktop">
           <div class="box is-shadowless _margin-bottomless-mobile">
             <article class="media is-flex-mobile _flex-column-mobile _flex-items-center-mobile">
