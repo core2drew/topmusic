@@ -10,6 +10,12 @@
     <link href="css/font-icons.css" rel="stylesheet"/>
     <link href="css/bulma.css" rel="stylesheet"/>
     <link href="css/app.css" rel="stylesheet"/>
+    <meta name="Description" content="Top Music Management
+        a young and dynamic Artist Management Company focused on the needs of our artists. And Offers Artist
+        Management, Personal Branding, Tour Management, Booking Management, Strategic Career Planning, Marketing and Social Media, 
+        A&R Consultancy. We are currently operating in South America, Europe and opening new markets in Asia and the MENA Region. 
+        Founder & CEO - Ckatiuscka Ribadeneira">
+    <meta name="Keywords" content="artist management, personal branding, strategic career planning, marketing and social media, A&R consultancy, advisory, music industry, musical production, supervisor, marketing, amsterdam,">
 </head>
 <body>
     
