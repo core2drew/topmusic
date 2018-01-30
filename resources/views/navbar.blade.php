@@ -1,8 +1,8 @@
-<header id="Navbar" class="navbar is-transparent is-fixed-top">
+<div id="Navbar" class="navbar is-transparent is-fixed-top">
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item">
-        <img class="_initial-maxheight" src="images/logo/logo-267x45.png" alt="Logo">
+        <img class="_initial-maxheight" src="images/logo/logo-267x45.png" alt="Top Music Management">
       </a>
       <span class="navbar-burger burger is-flex-tablet-only is-flex-mobile" data-target="navbarMenuHeroC">
         <span></span>
@@ -30,4 +30,4 @@
       </div>
     </div>
   </div>
-</header>
+</div>
