@@ -110,7 +110,7 @@
             <article class="media is-flex-mobile _flex-column-mobile _flex-items-center-mobile">
               <div class="media-left _margin-rightless-mobile">
                 <figure class="profile-image">
-                  <img class="image" src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  <img class="image" src="images/profile/Ckati.jpg" alt="Image">
                 </figure>
               </div>
               <div class="media-content has-text-centered-mobile">
@@ -147,7 +147,7 @@
             <article class="media is-flex-mobile _flex-column-mobile _flex-items-center-mobile">
               <div class="media-right _margin-leftless-mobile">
                 <figure class="profile-image">
-                  <img class="image" src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  <img class="image" src="images/profile/Mikayla.jpg" alt="Image">
                 </figure>
               </div>
               <div class="media-content has-text-centered-mobile">

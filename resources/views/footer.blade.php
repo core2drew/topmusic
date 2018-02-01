@@ -2,13 +2,13 @@
     <div class="container">
         <div class="level is-flex-mobile _flex-column-reverse-mobile ">
           <div class="level-item level-left social-media is-block-mobile has-text-centered-mobile">
-            <a class="is-size-5 _padding-rightless social-link">
+            <a href="https://www.facebook.com/topmusicmanagement" target="_blank" class="is-size-5 _padding-rightless social-link">
               <span class="icon-facebook icon is-medium"></span>
             </a>
-            <a class="is-size-5 _padding-rightless social-link">
+            <a href="https://www.instagram.com/topmusicmanagement" target="_blank" class="is-size-5 _padding-rightless social-link">
               <span class="icon-twitter icon is-medium"></span>
             </a>
-            <a class="is-size-5 _padding-rightless social-link">
+            <a href="https://mobile.twitter.com/TopMusicMGMT?p=s" target="_blank" class="is-size-5 _padding-rightless social-link">
               <span class="icon-instagram icon is-medium"></span>
             </a>
           </div>
