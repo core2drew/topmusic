@@ -128,13 +128,13 @@
                 </div>
                 <nav class="level is-flex-mobile _flex-content-center-mobile">
                   <div class="level-left">
-                    <a href="https://www.facebook.com/ckatiuscka.ribadeneira" class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.facebook.com/ckatiuscka.ribadeneira" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-facebook icon"></span>
                     </a>
-                    <a href="https://mobile.twitter.com/ckatur" class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://mobile.twitter.com/ckatur" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-twitter icon"></span>
                     </a>
-                    <a href="https://www.instagram.com/ckatu/" class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.instagram.com/ckatu/" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-instagram icon"></span>
                     </a>
                   </div>
