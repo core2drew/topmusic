@@ -128,13 +128,13 @@
                 </div>
                 <nav class="level is-flex-mobile _flex-content-center-mobile">
                   <div class="level-left">
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.facebook.com/ckatiuscka.ribadeneira" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-facebook icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://mobile.twitter.com/ckatur" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-twitter icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.instagram.com/ckatu/" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-instagram icon"></span>
                     </a>
                   </div>
@@ -165,13 +165,13 @@
                 </div>
                 <nav class="level is-flex-mobile _flex-content-center-mobile">
                   <div class="level-left">
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.facebook.com/mikayla.witholt" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-facebook icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.instagram.com/mikaylawitholt/" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-twitter icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://mobile.twitter.com/Mikaylaalaaa" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-instagram icon"></span>
                     </a>
                   </div>
