@@ -104,8 +104,8 @@
       </div>
     </section>
     <div class="container">
-      <div class="columns is-marginless">
-        <div class="column is-10-desktop is-offset-1-desktop">
+      <div class="columns is-marginless is-centered">
+        <div class="column is-8-desktop">
           <div class="box is-shadowless _margin-bottomless-mobile">
             <article class="media is-flex-mobile _flex-column-mobile _flex-items-center-mobile">
               <div class="media-left _margin-rightless-mobile">
@@ -165,13 +165,13 @@
                 </div>
                 <nav class="level is-flex-mobile _flex-content-center-mobile">
                   <div class="level-left">
-                    <a href="https://www.facebook.com/mikayla.witholt" class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.facebook.com/mikayla.witholt" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-facebook icon"></span>
                     </a>
-                    <a href="https://www.instagram.com/mikaylawitholt/" class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.instagram.com/mikaylawitholt/" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-twitter icon"></span>
                     </a>
-                    <a href="https://mobile.twitter.com/Mikaylaalaaa" class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://mobile.twitter.com/Mikaylaalaaa" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-instagram icon"></span>
                     </a>
                   </div>
