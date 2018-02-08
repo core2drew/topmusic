@@ -41,7 +41,7 @@
           <div class="column is-8-desktop is-8-tablet is-offset-2-desktop is-offset-2-tablet">
             <h2 class="subtitle is-size-5">
               Our success is not only do to the quality of our work, it´s down to trust,
-              attitude and the way we approach our artists, life and music
+              attitude and the way we approach our artists, life and music.
             </h2>
           </div>
         </div>
@@ -60,11 +60,11 @@
           </div>
           <div class="column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet">
             <span class="icon-success icon"></span>
-            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Success</h4>
+            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Drive</h4>
             <p class="details">
               We are highly motivated to
               help you reach beyond limits
-              and expectations
+              and expectations.
             </p>
           </div>
           <div class="column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet">
@@ -75,7 +75,7 @@
               their needs and aspirations,
               so we do everything for
               their professional
-              development
+              development.
             </p>
           </div>
           <div class="column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet">
@@ -116,7 +116,7 @@
               <div class="media-content has-text-centered-mobile">
                 <div class="content">
                   <div class="name">
-                    <h3 class="has-text-weight-semibold is-size-5 is-marginless">Ckatiuscka Ribadeneira</h3>
+                    <h3 class="has-text-weight-semibold is-size-5 is-marginless">Ckatu</h3>
                     <label>Founder & CEO</label>
                   </div>
                   <p>
@@ -153,7 +153,7 @@
               <div class="media-content has-text-centered-mobile">
                 <div class="content">
                   <div class="name">
-                    <h3 class="has-text-weight-semibold is-size-5 is-marginless">Mikayla Witholt</h3>
+                    <h3 class="has-text-weight-semibold is-size-5 is-marginless">Mikay</h3>
                     <label>Management Assistant</label>
                   </div>
                   <p>
