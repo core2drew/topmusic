@@ -80,7 +80,7 @@
           </div>
           <div class="column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet">
             <span class="icon-party icon"></span>
-            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Party</h4>
+            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Excellence</h4>
             <p class="details">
               Top Music Management doesn't
               just want the best for you,
