@@ -68,7 +68,7 @@
           <div class="column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile">
             <span class="icon-balance icon"></span>
             <h4 class="title is-size-5 has-text-weight-normal is-marginless">
-              Basic Legal<br/>
+              Legal<br/>
               Advisory
             </h4>
           </div>

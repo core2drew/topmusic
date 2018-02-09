@@ -41,7 +41,7 @@
           <div class="column is-8-desktop is-8-tablet is-offset-2-desktop is-offset-2-tablet">
             <h2 class="subtitle is-size-5">
               Our success is not only do to the quality of our work, it´s down to trust,
-              attitude and the way we approach our artists, life and music
+              attitude and the way we approach our artists, life and music.
             </h2>
           </div>
         </div>
@@ -60,11 +60,11 @@
           </div>
           <div class="column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet">
             <span class="icon-success icon"></span>
-            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Success</h4>
+            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Drive</h4>
             <p class="details">
               We are highly motivated to
               help you reach beyond limits
-              and expectations
+              and expectations.
             </p>
           </div>
           <div class="column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet">
@@ -75,12 +75,12 @@
               their needs and aspirations,
               so we do everything for
               their professional
-              development
+              development.
             </p>
           </div>
           <div class="column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet">
             <span class="icon-party icon"></span>
-            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Party</h4>
+            <h4 class="title is-size-5 has-text-weight-semibold is-marginless">Excellence</h4>
             <p class="details">
               Top Music Management doesn't
               just want the best for you,
@@ -104,19 +104,19 @@
       </div>
     </section>
     <div class="container">
-      <div class="columns is-marginless">
-        <div class="column is-10-desktop is-offset-1-desktop">
+      <div class="columns is-marginless is-centered">
+        <div class="column is-8-desktop">
           <div class="box is-shadowless _margin-bottomless-mobile">
             <article class="media is-flex-mobile _flex-column-mobile _flex-items-center-mobile">
               <div class="media-left _margin-rightless-mobile">
                 <figure class="profile-image">
-                  <img class="image" src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  <img class="image" src="images/profile/Ckati.jpg" alt="Image">
                 </figure>
               </div>
               <div class="media-content has-text-centered-mobile">
                 <div class="content">
                   <div class="name">
-                    <h3 class="has-text-weight-semibold is-size-5 is-marginless">Ckatiuscka Ribadeneira</h3>
+                    <h3 class="has-text-weight-semibold is-size-5 is-marginless">Ckatu</h3>
                     <label>Founder & CEO</label>
                   </div>
                   <p>
@@ -128,13 +128,13 @@
                 </div>
                 <nav class="level is-flex-mobile _flex-content-center-mobile">
                   <div class="level-left">
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.facebook.com/ckatiuscka.ribadeneira" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-facebook icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://mobile.twitter.com/ckatur" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-twitter icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.instagram.com/ckatu/" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-instagram icon"></span>
                     </a>
                   </div>
@@ -147,13 +147,13 @@
             <article class="media is-flex-mobile _flex-column-mobile _flex-items-center-mobile">
               <div class="media-right _margin-leftless-mobile">
                 <figure class="profile-image">
-                  <img class="image" src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  <img class="image" src="images/profile/Mikayla.jpg" alt="Image">
                 </figure>
               </div>
               <div class="media-content has-text-centered-mobile">
                 <div class="content">
                   <div class="name">
-                    <h3 class="has-text-weight-semibold is-size-5 is-marginless">Mikayla Witholt</h3>
+                    <h3 class="has-text-weight-semibold is-size-5 is-marginless">Mikay</h3>
                     <label>Management Assistant</label>
                   </div>
                   <p>
@@ -165,13 +165,13 @@
                 </div>
                 <nav class="level is-flex-mobile _flex-content-center-mobile">
                   <div class="level-left">
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.facebook.com/mikayla.witholt" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-facebook icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://www.instagram.com/mikaylawitholt/" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-twitter icon"></span>
                     </a>
-                    <a class="level-item social-link is-size-5 is-inline-mobile">
+                    <a href="https://mobile.twitter.com/Mikaylaalaaa" target="_blank" class="level-item social-link is-size-5 is-inline-mobile">
                       <span class="icon-instagram icon"></span>
                     </a>
                   </div>
