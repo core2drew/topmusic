@@ -39,5 +39,6 @@ mix
         'resources/assets/js/main.js'
     ],'public/js/main.js')
 
-
     
+    //React
+    .react('resources/assets/js', 'public/js/index.js');

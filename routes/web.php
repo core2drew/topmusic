@@ -13,42 +13,42 @@ use App\Http\Middleware\VerifyCsrfToken;
 |
 */
 
-Route::get('/',  [
+Route::get('/{slug?}',  [
     'as' => 'index',
     'uses' => function(){
-        return view('index');
+        return view('react_index');
     }
 ]);
 
-Route::get('whoweare',  [
-    'as' => 'whoweare',
-    'uses' => function(){
-        return view('whoweare');
-    }
-]);
+// Route::get('whoweare',  [
+//     'as' => 'whoweare',
+//     'uses' => function(){
+//         return view('whoweare');
+//     }
+// ]);
 
-Route::get('whatwedo',  [
-    'as' => 'whatwedo',
-    'uses' => function(){
-        return view('whatwedo');
-    }
-]);
+// Route::get('whatwedo',  [
+//     'as' => 'whatwedo',
+//     'uses' => function(){
+//         return view('whatwedo');
+//     }
+// ]);
 
-Route::get('clients',  [
-    'as' => 'clients',
-    'uses' => function(){
-        return view('clients');
-    }
-]);
+// Route::get('clients',  [
+//     'as' => 'clients',
+//     'uses' => function(){
+//         return view('clients');
+//     }
+// ]);
 
-Route::get('contactus',  [
-    'as' => 'contactus',
-    'uses' => function(){
-        return view('contactus');
-    }
-]);
+// Route::get('contactus',  [
+//     'as' => 'contactus',
+//     'uses' => function(){
+//         return view('contactus');
+//     }
+// ]);
 
-Route::post('inquiry',  [
-    'as' => 'inquiry',
-    'uses' => 'MailController@sendInquiry'
-]);
+// Route::post('inquiry',  [
+//     'as' => 'inquiry',
+//     'uses' => 'MailController@sendInquiry'
+// ]);
