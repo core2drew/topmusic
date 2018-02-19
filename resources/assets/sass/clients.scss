@@ -44,3 +44,25 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  #Clients {
+    > .container {
+      > .columns > .column {
+        height:33.33333333333333%
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #Clients {
+    > .container {
+      > .columns {
+        @include flexbox();
+        @include flex-direction(column);
+        height: calc(100vh) !important;
+      }
+    }
+  }
+}
