@@ -2,12 +2,10 @@
 @import 'mixins';
 
 #Footer {
-  &.default {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    background-color: $footer-default-bg;
-  }
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color: $footer-default-bg;
 
   &.transparent {
     background-color: transparent;

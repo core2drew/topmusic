@@ -163,7 +163,11 @@ html, body {
   min-height: 100%;
 }
 
-.wrapper {
+#App, #Container {
+  height: 100%;
+}
+
+#Container > .wrapper {
   min-height: 100%;
   position: relative;
   padding-bottom: 32px;

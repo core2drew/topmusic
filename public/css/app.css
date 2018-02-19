@@ -163,7 +163,11 @@ html, body {
   min-height: 100%;
 }
 
-.wrapper {
+#App, #Container {
+  height: 100%;
+}
+
+#Container > .wrapper {
   min-height: 100%;
   position: relative;
   padding-bottom: 32px;
@@ -277,7 +281,7 @@ html, body {
   }
 }
 
-#Footer.default {
+#Footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -315,7 +319,7 @@ html, body {
   margin-top: -3.25rem;
 }
 
-#LandingPage > .hero-head > #Navbar {
+#LandingPage > #Navbar {
   background-color: rgba(18, 18, 18, 0.6);
 }
 

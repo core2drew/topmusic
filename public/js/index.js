@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 27);
+/******/ 	return __webpack_require__(__webpack_require__.s = 30);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -73,7 +73,7 @@
 if (false) {
   module.exports = require('./cjs/react.production.min.js');
 } else {
-  module.exports = __webpack_require__(29);
+  module.exports = __webpack_require__(32);
 }
 
 
@@ -170,7 +170,7 @@ if (true) {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(47)(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(49)(isValidElement, throwOnDirectAccess);
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
@@ -550,8 +550,8 @@ module.exports = warning;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return createLocation; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return locationsAreEqual; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_resolve_pathname__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_value_equal__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_resolve_pathname__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_value_equal__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__PathUtils__ = __webpack_require__(6);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -621,6 +621,128 @@ var locationsAreEqual = function locationsAreEqual(a, b) {
 
 /***/ }),
 /* 10 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(14);
+
+
+
+var Navigation = function Navigation(props) {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    "div",
+    { id: "Navbar", className: "navbar is-transparent is-fixed-top" },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "div",
+      { className: "container" },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "navbar-brand" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* NavLink */],
+          { to: "/", className: "navbar-item" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "_initial-maxheight", src: "images/logo/logo-267x45.png", alt: "Top Music Management" })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "span",
+          { className: "navbar-burger burger is-flex-tablet-only is-flex-mobile", "data-target": "navbarMenuHeroC" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", null),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", null),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", null)
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { id: "navbarMenuHeroC", className: "navbar-menu has-text-centered-touch" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "navbar-end" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* NavLink */],
+            { exact: true, to: "/", activeClassName: "is-active", className: "navbar-item is-uppercase" },
+            "Home"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* NavLink */],
+            { to: "/whoweare", activeClassName: "is-active", className: "navbar-item is-uppercase" },
+            "Who We Are"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* NavLink */],
+            { to: "/whatwedo", activeClassName: "is-active", className: "navbar-item is-uppercase" },
+            "What We Do"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* NavLink */],
+            { to: "/clients", activeClassName: "is-active", className: "navbar-item is-uppercase" },
+            "Clients"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* NavLink */],
+            { to: "/contactus", activeClassName: "is-active", className: "navbar-item is-uppercase" },
+            "Contact"
+          )
+        )
+      )
+    )
+  );
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Navigation);
+
+/***/ }),
+/* 11 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+var Footer = function Footer(props) {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { id: 'Footer', className: (props.variant ? props.variant : '') + ' footer is-paddingless' },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: 'container' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'level is-flex-mobile _flex-column-reverse-mobile ' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'level-item level-left social-media is-block-mobile has-text-centered-mobile' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'a',
+            { href: 'https://www.facebook.com/topmusicmanagement', target: '_blank', className: 'is-size-5 _padding-rightless social-link' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-facebook icon is-medium' })
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'a',
+            { href: 'https://mobile.twitter.com/TopMusicMGMT?p=s', target: '_blank', className: 'is-size-5 _padding-rightless social-link' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-twitter icon is-medium' })
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'a',
+            { href: 'https://www.instagram.com/topmusicmanagement', target: '_blank', className: 'is-size-5 _padding-rightless social-link' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-instagram icon is-medium' })
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'p',
+          { className: 'level-item level-right is-size-7 is-block-mobile has-text-centered-mobile' },
+          '\xA9 2018 Top Music Management. All rights reserved.'
+        )
+      )
+    )
+  );
+};
+/* harmony default export */ __webpack_exports__["a"] = (Footer);
+
+/***/ }),
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -717,7 +839,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 11 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -733,7 +855,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 if (true) {
   var invariant = __webpack_require__(7);
   var warning = __webpack_require__(8);
-  var ReactPropTypesSecret = __webpack_require__(19);
+  var ReactPropTypesSecret = __webpack_require__(22);
   var loggedTypeFailures = {};
 }
 
@@ -783,7 +905,65 @@ module.exports = checkPropTypes;
 
 
 /***/ }),
-/* 12 */
+/* 14 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(48);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(51);
+/* unused harmony reexport HashRouter */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(26);
+/* unused harmony reexport Link */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(53);
+/* unused harmony reexport MemoryRouter */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(56);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(59);
+/* unused harmony reexport Prompt */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(61);
+/* unused harmony reexport Redirect */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(27);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(17);
+/* unused harmony reexport Router */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(67);
+/* unused harmony reexport StaticRouter */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(69);
+/* unused harmony reexport Switch */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(71);
+/* unused harmony reexport matchPath */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(72);
+/* unused harmony reexport withRouter */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -794,11 +974,11 @@ exports.locationsAreEqual = exports.createLocation = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _resolvePathname = __webpack_require__(20);
+var _resolvePathname = __webpack_require__(23);
 
 var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
 
-var _valueEqual = __webpack_require__(21);
+var _valueEqual = __webpack_require__(24);
 
 var _valueEqual2 = _interopRequireDefault(_valueEqual);
 
@@ -867,7 +1047,7 @@ var locationsAreEqual = exports.locationsAreEqual = function locationsAreEqual(a
 };
 
 /***/ }),
-/* 13 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -958,18 +1138,18 @@ var createTransitionManager = function createTransitionManager() {
 exports.default = createTransitionManager;
 
 /***/ }),
-/* 14 */
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Router__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Router__ = __webpack_require__(18);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Router__["a" /* default */]);
 
 /***/ }),
-/* 15 */
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1088,11 +1268,11 @@ Router.childContextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Router);
 
 /***/ }),
-/* 16 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_path_to_regexp__);
 
 
@@ -1165,7 +1345,7 @@ var matchPath = function matchPath(pathname) {
 /* harmony default export */ __webpack_exports__["a"] = (matchPath);
 
 /***/ }),
-/* 17 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1250,7 +1430,7 @@ var createTransitionManager = function createTransitionManager() {
 /* harmony default export */ __webpack_exports__["a"] = (createTransitionManager);
 
 /***/ }),
-/* 18 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1273,7 +1453,7 @@ if (true) {
 module.exports = emptyObject;
 
 /***/ }),
-/* 19 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1292,7 +1472,7 @@ module.exports = ReactPropTypesSecret;
 
 
 /***/ }),
-/* 20 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1369,7 +1549,7 @@ function resolvePathname(to) {
 /* harmony default export */ __webpack_exports__["default"] = (resolvePathname);
 
 /***/ }),
-/* 21 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1414,7 +1594,7 @@ function valueEqual(a, b) {
 /* harmony default export */ __webpack_exports__["default"] = (valueEqual);
 
 /***/ }),
-/* 22 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1475,7 +1655,7 @@ var isExtraneousPopstateEvent = exports.isExtraneousPopstateEvent = function isE
 };
 
 /***/ }),
-/* 23 */
+/* 26 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1585,18 +1765,18 @@ Link.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Link);
 
 /***/ }),
-/* 24 */
+/* 27 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Route__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Route__ = __webpack_require__(28);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Route__["a" /* default */]);
 
 /***/ }),
-/* 25 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1608,7 +1788,7 @@ Link.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(19);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -1745,7 +1925,7 @@ Route.childContextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Route);
 
 /***/ }),
-/* 26 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1811,32 +1991,32 @@ var isExtraneousPopstateEvent = function isExtraneousPopstateEvent(event) {
 };
 
 /***/ }),
-/* 27 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(28);
-__webpack_require__(76);
-__webpack_require__(77);
-__webpack_require__(78);
-__webpack_require__(79);
-__webpack_require__(80);
+__webpack_require__(31);
 __webpack_require__(81);
 __webpack_require__(82);
 __webpack_require__(83);
-module.exports = __webpack_require__(84);
+__webpack_require__(84);
+__webpack_require__(85);
+__webpack_require__(86);
+__webpack_require__(87);
+__webpack_require__(88);
+module.exports = __webpack_require__(89);
 
 
 /***/ }),
-/* 28 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__routes__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__routes__ = __webpack_require__(47);
 
 
 
@@ -1844,7 +2024,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 Object(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__routes__["a" /* default */], null), document.getElementById('App'));
 
 /***/ }),
-/* 29 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1865,12 +2045,12 @@ if (true) {
   (function() {
 'use strict';
 
-var _assign = __webpack_require__(10);
-var emptyObject = __webpack_require__(18);
+var _assign = __webpack_require__(12);
+var emptyObject = __webpack_require__(21);
 var invariant = __webpack_require__(7);
 var warning = __webpack_require__(8);
 var emptyFunction = __webpack_require__(4);
-var checkPropTypes = __webpack_require__(11);
+var checkPropTypes = __webpack_require__(13);
 
 // TODO: this is special because it gets imported during build.
 
@@ -3208,7 +3388,7 @@ module.exports = react;
 
 
 /***/ }),
-/* 30 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3248,12 +3428,12 @@ if (false) {
   checkDCE();
   module.exports = require('./cjs/react-dom.production.min.js');
 } else {
-  module.exports = __webpack_require__(31);
+  module.exports = __webpack_require__(34);
 }
 
 
 /***/ }),
-/* 31 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3277,18 +3457,18 @@ if (true) {
 var React = __webpack_require__(0);
 var invariant = __webpack_require__(7);
 var warning = __webpack_require__(8);
-var ExecutionEnvironment = __webpack_require__(32);
-var _assign = __webpack_require__(10);
+var ExecutionEnvironment = __webpack_require__(35);
+var _assign = __webpack_require__(12);
 var emptyFunction = __webpack_require__(4);
-var EventListener = __webpack_require__(33);
-var getActiveElement = __webpack_require__(34);
-var shallowEqual = __webpack_require__(35);
-var containsNode = __webpack_require__(36);
-var focusNode = __webpack_require__(39);
-var emptyObject = __webpack_require__(18);
-var checkPropTypes = __webpack_require__(11);
-var hyphenateStyleName = __webpack_require__(40);
-var camelizeStyleName = __webpack_require__(42);
+var EventListener = __webpack_require__(36);
+var getActiveElement = __webpack_require__(37);
+var shallowEqual = __webpack_require__(38);
+var containsNode = __webpack_require__(39);
+var focusNode = __webpack_require__(42);
+var emptyObject = __webpack_require__(21);
+var checkPropTypes = __webpack_require__(13);
+var hyphenateStyleName = __webpack_require__(43);
+var camelizeStyleName = __webpack_require__(45);
 
 /**
  * WARNING: DO NOT manually require this module.
@@ -18654,7 +18834,7 @@ module.exports = reactDom;
 
 
 /***/ }),
-/* 32 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18693,7 +18873,7 @@ var ExecutionEnvironment = {
 module.exports = ExecutionEnvironment;
 
 /***/ }),
-/* 33 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18773,7 +18953,7 @@ var EventListener = {
 module.exports = EventListener;
 
 /***/ }),
-/* 34 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18815,7 +18995,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 module.exports = getActiveElement;
 
 /***/ }),
-/* 35 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18886,7 +19066,7 @@ function shallowEqual(objA, objB) {
 module.exports = shallowEqual;
 
 /***/ }),
-/* 36 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18901,7 +19081,7 @@ module.exports = shallowEqual;
  * 
  */
 
-var isTextNode = __webpack_require__(37);
+var isTextNode = __webpack_require__(40);
 
 /*eslint-disable no-bitwise */
 
@@ -18929,7 +19109,7 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-/* 37 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18944,7 +19124,7 @@ module.exports = containsNode;
  * @typechecks
  */
 
-var isNode = __webpack_require__(38);
+var isNode = __webpack_require__(41);
 
 /**
  * @param {*} object The object to check.
@@ -18957,7 +19137,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 38 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18985,7 +19165,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 39 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19015,7 +19195,7 @@ function focusNode(node) {
 module.exports = focusNode;
 
 /***/ }),
-/* 40 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19030,7 +19210,7 @@ module.exports = focusNode;
 
 
 
-var hyphenate = __webpack_require__(41);
+var hyphenate = __webpack_require__(44);
 
 var msPattern = /^ms-/;
 
@@ -19057,7 +19237,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 41 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19093,7 +19273,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 42 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19108,7 +19288,7 @@ module.exports = hyphenate;
 
 
 
-var camelize = __webpack_require__(43);
+var camelize = __webpack_require__(46);
 
 var msPattern = /^-ms-/;
 
@@ -19136,7 +19316,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 43 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19171,22 +19351,18 @@ function camelize(string) {
 module.exports = camelize;
 
 /***/ }),
-/* 44 */
+/* 47 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__containers_navigation__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__containers_footer__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__containers_home__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__containers_whoweare__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__containers_WhatWeDo__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__containers_clients__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__containers_contactus__ = __webpack_require__(101);
-
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__containers_home__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__containers_whoweare__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__containers_WhatWeDo__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__containers_clients__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__containers_contactus__ = __webpack_require__(80);
 
 
 
@@ -19201,14 +19377,12 @@ var Routes = function Routes() {
     null,
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "div",
-      { id: "Layout" },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__containers_navigation__["a" /* default */], null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: "/", component: __WEBPACK_IMPORTED_MODULE_4__containers_home__["a" /* default */] }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/whoweare", component: __WEBPACK_IMPORTED_MODULE_5__containers_whoweare__["a" /* default */] }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/whatwedo", component: __WEBPACK_IMPORTED_MODULE_6__containers_WhatWeDo__["a" /* default */] }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/clients", component: __WEBPACK_IMPORTED_MODULE_7__containers_clients__["a" /* default */] }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/contactus", component: __WEBPACK_IMPORTED_MODULE_8__containers_contactus__["a" /* default */] }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__containers_footer__["a" /* default */], null)
+      { id: "Container" },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: "/", component: __WEBPACK_IMPORTED_MODULE_2__containers_home__["a" /* default */] }),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/whoweare", component: __WEBPACK_IMPORTED_MODULE_3__containers_whoweare__["a" /* default */] }),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/whatwedo", component: __WEBPACK_IMPORTED_MODULE_4__containers_WhatWeDo__["a" /* default */] }),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/clients", component: __WEBPACK_IMPORTED_MODULE_5__containers_clients__["a" /* default */] }),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/contactus", component: __WEBPACK_IMPORTED_MODULE_6__containers_contactus__["a" /* default */] })
     )
   );
 };
@@ -19216,65 +19390,7 @@ var Routes = function Routes() {
 /* harmony default export */ __webpack_exports__["a"] = (Routes);
 
 /***/ }),
-/* 45 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(46);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(49);
-/* unused harmony reexport HashRouter */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(23);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(51);
-/* unused harmony reexport MemoryRouter */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(54);
-/* unused harmony reexport NavLink */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(57);
-/* unused harmony reexport Prompt */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(59);
-/* unused harmony reexport Redirect */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(24);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(14);
-/* unused harmony reexport Router */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(65);
-/* unused harmony reexport StaticRouter */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(67);
-/* unused harmony reexport Switch */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(69);
-/* unused harmony reexport matchPath */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(70);
-/* unused harmony reexport withRouter */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-/* 46 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19284,9 +19400,9 @@ var Routes = function Routes() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(17);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -19341,7 +19457,7 @@ BrowserRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (BrowserRouter);
 
 /***/ }),
-/* 47 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19357,10 +19473,10 @@ BrowserRouter.propTypes = {
 var emptyFunction = __webpack_require__(4);
 var invariant = __webpack_require__(7);
 var warning = __webpack_require__(8);
-var assign = __webpack_require__(10);
+var assign = __webpack_require__(12);
 
-var ReactPropTypesSecret = __webpack_require__(19);
-var checkPropTypes = __webpack_require__(11);
+var ReactPropTypesSecret = __webpack_require__(22);
+var checkPropTypes = __webpack_require__(13);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -19890,7 +20006,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 
 /***/ }),
-/* 48 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19910,15 +20026,15 @@ var _invariant = __webpack_require__(3);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _LocationUtils = __webpack_require__(12);
+var _LocationUtils = __webpack_require__(15);
 
 var _PathUtils = __webpack_require__(5);
 
-var _createTransitionManager = __webpack_require__(13);
+var _createTransitionManager = __webpack_require__(16);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
-var _DOMUtils = __webpack_require__(22);
+var _DOMUtils = __webpack_require__(25);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20203,7 +20319,7 @@ var createBrowserHistory = function createBrowserHistory() {
 exports.default = createBrowserHistory;
 
 /***/ }),
-/* 49 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20213,9 +20329,9 @@ exports.default = createBrowserHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(17);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -20269,7 +20385,7 @@ HashRouter.propTypes = {
 /* unused harmony default export */ var _unused_webpack_default_export = (HashRouter);
 
 /***/ }),
-/* 50 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20287,15 +20403,15 @@ var _invariant = __webpack_require__(3);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _LocationUtils = __webpack_require__(12);
+var _LocationUtils = __webpack_require__(15);
 
 var _PathUtils = __webpack_require__(5);
 
-var _createTransitionManager = __webpack_require__(13);
+var _createTransitionManager = __webpack_require__(16);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
-var _DOMUtils = __webpack_require__(22);
+var _DOMUtils = __webpack_require__(25);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20599,18 +20715,18 @@ var createHashHistory = function createHashHistory() {
 exports.default = createHashHistory;
 
 /***/ }),
-/* 51 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__ = __webpack_require__(54);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__["a" /* default */]);
 
 /***/ }),
-/* 52 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20620,9 +20736,9 @@ exports.default = createHashHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(18);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -20677,7 +20793,7 @@ MemoryRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (MemoryRouter);
 
 /***/ }),
-/* 53 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20695,9 +20811,9 @@ var _warning2 = _interopRequireDefault(_warning);
 
 var _PathUtils = __webpack_require__(5);
 
-var _LocationUtils = __webpack_require__(12);
+var _LocationUtils = __webpack_require__(15);
 
-var _createTransitionManager = __webpack_require__(13);
+var _createTransitionManager = __webpack_require__(16);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
@@ -20853,7 +20969,7 @@ var createMemoryHistory = function createMemoryHistory() {
 exports.default = createMemoryHistory;
 
 /***/ }),
-/* 54 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20861,8 +20977,8 @@ exports.default = createMemoryHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Route__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Route__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(26);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -20931,13 +21047,13 @@ NavLink.defaultProps = {
   ariaCurrent: 'true'
 };
 
-/* unused harmony default export */ var _unused_webpack_default_export = (NavLink);
+/* harmony default export */ __webpack_exports__["a"] = (NavLink);
 
 /***/ }),
-/* 55 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isarray = __webpack_require__(56)
+var isarray = __webpack_require__(58)
 
 /**
  * Expose `pathToRegexp`.
@@ -21366,7 +21482,7 @@ function pathToRegexp (path, keys, options) {
 
 
 /***/ }),
-/* 56 */
+/* 58 */
 /***/ (function(module, exports) {
 
 module.exports = Array.isArray || function (arr) {
@@ -21375,18 +21491,18 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 57 */
+/* 59 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__ = __webpack_require__(60);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__["a" /* default */]);
 
 /***/ }),
-/* 58 */
+/* 60 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21477,18 +21593,18 @@ Prompt.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Prompt);
 
 /***/ }),
-/* 59 */
+/* 61 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__ = __webpack_require__(62);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__["a" /* default */]);
 
 /***/ }),
-/* 60 */
+/* 62 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21500,7 +21616,7 @@ Prompt.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(63);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -21596,15 +21712,15 @@ Redirect.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Redirect);
 
 /***/ }),
-/* 61 */
+/* 63 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createBrowserHistory__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createBrowserHistory__ = __webpack_require__(64);
 /* unused harmony reexport createBrowserHistory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createHashHistory__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createHashHistory__ = __webpack_require__(65);
 /* unused harmony reexport createHashHistory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createMemoryHistory__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createMemoryHistory__ = __webpack_require__(66);
 /* unused harmony reexport createMemoryHistory */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__LocationUtils__ = __webpack_require__(9);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__LocationUtils__["a"]; });
@@ -21623,7 +21739,7 @@ Redirect.contextTypes = {
 
 
 /***/ }),
-/* 62 */
+/* 64 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21633,8 +21749,8 @@ Redirect.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(29);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -21927,7 +22043,7 @@ var createBrowserHistory = function createBrowserHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createBrowserHistory);
 
 /***/ }),
-/* 63 */
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21937,8 +22053,8 @@ var createBrowserHistory = function createBrowserHistory() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(29);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 
@@ -22248,7 +22364,7 @@ var createHashHistory = function createHashHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createHashHistory);
 
 /***/ }),
-/* 64 */
+/* 66 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22256,7 +22372,7 @@ var createHashHistory = function createHashHistory() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PathUtils__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createTransitionManager__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createTransitionManager__ = __webpack_require__(20);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -22416,18 +22532,18 @@ var createMemoryHistory = function createMemoryHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createMemoryHistory);
 
 /***/ }),
-/* 65 */
+/* 67 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__ = __webpack_require__(68);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__["a" /* default */]);
 
 /***/ }),
-/* 66 */
+/* 68 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22441,7 +22557,7 @@ var createMemoryHistory = function createMemoryHistory() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history_PathUtils__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history_PathUtils___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_history_PathUtils__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Router__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Router__ = __webpack_require__(18);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
@@ -22610,18 +22726,18 @@ StaticRouter.childContextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (StaticRouter);
 
 /***/ }),
-/* 67 */
+/* 69 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__ = __webpack_require__(70);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__["a" /* default */]);
 
 /***/ }),
-/* 68 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22633,7 +22749,7 @@ StaticRouter.childContextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(19);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -22715,29 +22831,29 @@ Switch.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Switch);
 
 /***/ }),
-/* 69 */
+/* 71 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_matchPath__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_matchPath__ = __webpack_require__(19);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_matchPath__["a" /* default */]);
 
 /***/ }),
-/* 70 */
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__ = __webpack_require__(73);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__["a" /* default */]);
 
 /***/ }),
-/* 71 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22745,9 +22861,9 @@ Switch.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Route__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Route__ = __webpack_require__(28);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
@@ -22782,7 +22898,7 @@ var withRouter = function withRouter(Component) {
 /* harmony default export */ __webpack_exports__["a"] = (withRouter);
 
 /***/ }),
-/* 72 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22854,12 +22970,13 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 
 
 /***/ }),
-/* 73 */
+/* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_layout__ = __webpack_require__(76);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22867,6 +22984,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -22880,25 +22998,25 @@ var Home = function (_Component) {
   }
 
   _createClass(Home, [{
-    key: "render",
+    key: 'render',
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "div",
-        { id: "LandingPage", className: "hero is-fullheight" },
+        __WEBPACK_IMPORTED_MODULE_1__components_layout__["a" /* default */],
+        { idName: 'LandingPage', className: 'hero is-fullheight' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "hero-body" },
+          'div',
+          { className: 'hero-body' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "container" },
+            'div',
+            { className: 'container' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "h1",
-              { className: "title has-text-weight-light is-size-1-desktop is-size-2-tablet has-text-centered-mobile" },
-              "Music is in our hearts, ",
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-              "reason why we work to ",
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-              "make the impossible happen."
+              'h1',
+              { className: 'title has-text-weight-light is-size-1-desktop is-size-2-tablet has-text-centered-mobile' },
+              'Music is in our hearts, ',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+              'reason why we work to ',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+              'make the impossible happen.'
             )
           )
         )
@@ -22912,13 +23030,39 @@ var Home = function (_Component) {
 /* harmony default export */ __webpack_exports__["a"] = (Home);
 
 /***/ }),
-/* 74 */,
-/* 75 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__navigation__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__footer__ = __webpack_require__(11);
+
+
+
+
+var Layout = function Layout(props) {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { id: props.idName, className: props.className },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__navigation__["a" /* default */], null),
+    props.children,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__footer__["a" /* default */], null)
+  );
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Layout);
+
+/***/ }),
+/* 77 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_navigation__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_footer__ = __webpack_require__(11);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22929,50 +23073,513 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var Footer = function (_Component) {
-  _inherits(Footer, _Component);
 
-  function Footer() {
-    _classCallCheck(this, Footer);
 
-    return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+var WhoWeAre = function (_Component) {
+  _inherits(WhoWeAre, _Component);
+
+  function WhoWeAre() {
+    _classCallCheck(this, WhoWeAre);
+
+    return _possibleConstructorReturn(this, (WhoWeAre.__proto__ || Object.getPrototypeOf(WhoWeAre)).apply(this, arguments));
   }
 
-  _createClass(Footer, [{
-    key: "render",
+  _createClass(WhoWeAre, [{
+    key: 'render',
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "div",
-        { id: "Footer", className: "{{ $className }} footer is-paddingless" },
+        'div',
+        { id: 'WhoWeAre', 'class': 'wrapper' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_navigation__["a" /* default */], null),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "container" },
+          'section',
+          { id: 'AboutUs', 'class': 'hero' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "level is-flex-mobile _flex-column-reverse-mobile " },
+            'div',
+            { 'class': 'hero-body' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "level-item level-left social-media is-block-mobile has-text-centered-mobile" },
+              'div',
+              { 'class': 'container has-text-centered' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "https://www.facebook.com/topmusicmanagement", target: "_blank", className: "is-size-5 _padding-rightless social-link" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-facebook icon is-medium" })
+                'h1',
+                { 'class': 'title is-size-2' },
+                'We are Top Music Management'
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "https://mobile.twitter.com/TopMusicMGMT?p=s", target: "_blank", className: "is-size-5 _padding-rightless social-link" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-twitter icon is-medium" })
+                'h2',
+                { 'class': 'column _margin-auto is-6-fullhd is-8-desktop is-9-tablet subtitle is-size-4' },
+                'a young and dynamic Artist Management Company focused on the needs of our artists.'
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "https://www.instagram.com/topmusicmanagement", target: "_blank", className: "is-size-5 _padding-rightless social-link" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-instagram icon is-medium" })
+                'div',
+                { 'class': 'content column _margin-auto is-7-fullhd is-8-desktop is-9-tablet' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'p',
+                  null,
+                  'We understand artists and their aim to focus on their musical production and performance. However, in the music industry artists are subject to pressures 24 hours a day, seven days a week.'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'p',
+                  null,
+                  'This is why Top Music Management offers 360-degree support to our clients, providing space for creativity and enabling the artist to grow professionally beyond their wildest dreams.'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'p',
+                  null,
+                  'By devising and executing individually customized career strategies and services we facilitate our artists to excel. Our aim is to create a partnership, in which our clients can rely on us for their careers, while they fully focus on what they and what we love: Music.'
+                )
               )
-            ),
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'section',
+          { id: 'Attitudes', 'class': 'hero' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { 'class': 'hero-body' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "p",
-              { className: "level-item level-right is-size-7 is-block-mobile has-text-centered-mobile" },
-              "\xA9 2018 Top Music Management. All rights reserved."
+              'div',
+              { 'class': 'container has-text-centered' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { 'class': 'columns' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { 'class': 'column is-8-desktop is-8-tablet is-offset-2-desktop is-offset-2-tablet' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h2',
+                    { 'class': 'subtitle is-size-5' },
+                    'Our success is not only do to the quality of our work, it\xB4s down to trust, attitude and the way we approach our artists, life and music.'
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { 'class': 'columns is-desktop is-flex-tablet _flex-wrap-tablet is-block-mobile' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { 'class': 'column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'icon-passion icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { 'class': 'title is-size-5 has-text-weight-semibold is-marginless' },
+                    'Passion'
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    { 'class': 'details' },
+                    'Our desire to support our artists to produce good music and share it with the world runs deep. Music is our passion thats why we enjoy every step of the way with you!'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { 'class': 'column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'icon-success icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { 'class': 'title is-size-5 has-text-weight-semibold is-marginless' },
+                    'Drive'
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    { 'class': 'details' },
+                    'We are highly motivated to help you reach beyond limits and expectations.'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { 'class': 'column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'icon-focus icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { 'class': 'title is-size-5 has-text-weight-semibold is-marginless' },
+                    'Focus'
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    { 'class': 'details' },
+                    'We focus on our artists, their needs and aspirations, so we do everything for their professional development.'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { 'class': 'column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'icon-party icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { 'class': 'title is-size-5 has-text-weight-semibold is-marginless' },
+                    'Excellence'
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    { 'class': 'details' },
+                    'Top Music Management doesn\'t just want the best for you, we want to make things happen around the gobble, come join us!'
+                  )
+                )
+              )
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'section',
+          { id: 'TheTeam' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'section',
+            { 'class': 'hero' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { 'class': 'hero-body' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { 'class': 'container has-text-centered' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'h1',
+                  { 'class': 'title' },
+                  'Meet the Team'
+                )
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { 'class': 'container' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { 'class': 'columns is-marginless is-centered' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { 'class': 'column is-8-desktop' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { 'class': 'box is-shadowless _margin-bottomless-mobile' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'article',
+                    { 'class': 'media is-flex-mobile _flex-column-mobile _flex-items-center-mobile' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { 'class': 'media-left _margin-rightless-mobile' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'figure',
+                        { 'class': 'profile-image' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { 'class': 'image', src: 'images/profile/Ckati.jpg', alt: 'Image' })
+                      )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { 'class': 'media-content has-text-centered-mobile' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { 'class': 'content' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'div',
+                          { 'class': 'name' },
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'h3',
+                            { 'class': 'has-text-weight-semibold is-size-5 is-marginless' },
+                            'Ckatu'
+                          ),
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'label',
+                            null,
+                            'Founder & CEO'
+                          )
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'p',
+                          null,
+                          'Ckatu believes in dreams and loves working with the dreamers that work hard to make them come true. As a former Management Consultant in one of  the top Fortune Global 500 companies she enjoys the mix of business and her passion: Music.'
+                        )
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'nav',
+                        { 'class': 'level is-flex-mobile _flex-content-center-mobile' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'div',
+                          { 'class': 'level-left' },
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'a',
+                            { href: 'https://www.facebook.com/ckatiuscka.ribadeneira', target: '_blank', 'class': 'level-item social-link is-size-5 is-inline-mobile' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'icon-facebook icon' })
+                          ),
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'a',
+                            { href: 'https://mobile.twitter.com/ckatur', target: '_blank', 'class': 'level-item social-link is-size-5 is-inline-mobile' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'icon-twitter icon' })
+                          ),
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'a',
+                            { href: 'https://www.instagram.com/ckatu/', target: '_blank', 'class': 'level-item social-link is-size-5 is-inline-mobile' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'icon-instagram icon' })
+                          )
+                        )
+                      )
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { 'class': 'box is-shadowless' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'article',
+                    { 'class': 'media is-flex-mobile _flex-column-mobile _flex-items-center-mobile' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { 'class': 'media-right _margin-leftless-mobile' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'figure',
+                        { 'class': 'profile-image' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { 'class': 'image', src: 'images/profile/Mikayla.jpg', alt: 'Image' })
+                      )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { 'class': 'media-content has-text-centered-mobile' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { 'class': 'content' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'div',
+                          { 'class': 'name' },
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'h3',
+                            { 'class': 'has-text-weight-semibold is-size-5 is-marginless' },
+                            'Mikay'
+                          ),
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'label',
+                            null,
+                            'Management Assistant'
+                          )
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'p',
+                          null,
+                          'Mikay is an amazing friend and co-worker, who knows how to strive for what she believes. Working for a while in the Music Industry and studying at the HBA she knows her way around and is the perfect complement to the team.'
+                        )
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'nav',
+                        { 'class': 'level is-flex-mobile _flex-content-center-mobile' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'div',
+                          { 'class': 'level-left' },
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'a',
+                            { href: 'https://www.facebook.com/mikayla.witholt', target: '_blank', 'class': 'level-item social-link is-size-5 is-inline-mobile' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'icon-facebook icon' })
+                          ),
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'a',
+                            { href: 'https://www.instagram.com/mikaylawitholt/', target: '_blank', 'class': 'level-item social-link is-size-5 is-inline-mobile' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'icon-twitter icon' })
+                          ),
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'a',
+                            { href: 'https://mobile.twitter.com/Mikaylaalaaa', target: '_blank', 'class': 'level-item social-link is-size-5 is-inline-mobile' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'icon-instagram icon' })
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_footer__["a" /* default */], null)
+      );
+    }
+  }]);
+
+  return WhoWeAre;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (WhoWeAre);
+
+/***/ }),
+/* 78 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_layout__ = __webpack_require__(76);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var WhatWeDo = function (_Component) {
+  _inherits(WhatWeDo, _Component);
+
+  function WhatWeDo() {
+    _classCallCheck(this, WhatWeDo);
+
+    return _possibleConstructorReturn(this, (WhatWeDo.__proto__ || Object.getPrototypeOf(WhatWeDo)).apply(this, arguments));
+  }
+
+  _createClass(WhatWeDo, [{
+    key: 'render',
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1__components_layout__["a" /* default */],
+        { idName: 'WhatWeDo', className: 'wrapper' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'section',
+          { id: 'Services', className: 'hero' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'hero-body' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'container' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h1',
+                { className: 'title has-text-centered has-text-weight-semibold' },
+                'Top Music Management offers the following services'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'columns is-centered is-flex-mobile _flex-wrap-mobile' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-mic icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { className: 'title is-size-5 has-text-weight-normal is-marginless' },
+                    'Artist',
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                    'Management'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-rockstar-shirt icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { className: 'title is-size-5 has-text-weight-normal is-marginless' },
+                    'Personal',
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                    'Branding'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-distance icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { className: 'title is-size-5 has-text-weight-normal is-marginless' },
+                    'Tour',
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                    'Management'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-favorite-book icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { className: 'title is-size-5 has-text-weight-normal is-marginless' },
+                    'Booking',
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                    'Management'
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'columns is-centered is-flex-mobile _flex-wrap-mobile' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-podium icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { className: 'title is-size-5 has-text-weight-normal is-marginless' },
+                    'Strategic Career',
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                    'Planning'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-social-media-graph icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { className: 'title is-size-5 has-text-weight-normal is-marginless' },
+                    'Marketing',
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                    'and Social Media'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-search-rockstar icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { className: 'title is-size-5 has-text-weight-normal is-marginless' },
+                    'A&R',
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                    'Consultancy'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-balance icon' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'h4',
+                    { className: 'title is-size-5 has-text-weight-normal is-marginless' },
+                    'Legal',
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                    'Advisory'
+                  )
+                )
+              )
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'section',
+          { id: 'Operating', className: 'hero' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'hero-body' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'container' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'columns is-centered is-multiline' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'column is-3-widescreen is-4-desktop is-8-tablet has-text-centered-touch is-flex' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    { className: 'is-size-5 has-text-weight-semibold' },
+                    'We are currently operating in South America, Europe and opening new markets in Asia and the MENA Region. Our headquarter is in Amsterdam.'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'column is-5-widescreen is-7-desktop is-12-tablet has-text-centered' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/whatwedo/map.png' })
+                )
+              )
             )
           )
         )
@@ -22980,40 +23587,267 @@ var Footer = function (_Component) {
     }
   }]);
 
-  return Footer;
+  return WhatWeDo;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-/* harmony default export */ __webpack_exports__["a"] = (Footer);
-
-/***/ }),
-/* 76 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 77 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 78 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
+/* harmony default export */ __webpack_exports__["a"] = (WhatWeDo);
 
 /***/ }),
 /* 79 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_layout__ = __webpack_require__(76);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var Clients = function (_Component) {
+  _inherits(Clients, _Component);
+
+  function Clients() {
+    _classCallCheck(this, Clients);
+
+    return _possibleConstructorReturn(this, (Clients.__proto__ || Object.getPrototypeOf(Clients)).apply(this, arguments));
+  }
+
+  _createClass(Clients, [{
+    key: 'render',
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1__components_layout__["a" /* default */],
+        { idName: 'Clients', className: 'wrapper' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'container is-fluid is-marginless' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'columns is-multiline is-marginless _height-initial-mobile' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'column is-flex is-4', style: { backgroundImage: 'url(\'images/clients/Hasse de Moor.jpg\')' } },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'shader' }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'logo', src: 'images/clients/Hasse de Moor - Logo.png' })
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'column is-flex is-4', style: { backgroundImage: 'url(\'images/clients/Bobby Rock.jpg\')' } },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'shader' }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'logo', src: 'images/clients/Bobby Rock - Logo.png' })
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'column is-flex is-4', style: { backgroundImage: 'url(\'images/clients/Frankie Ruscello.jpg\')' } },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'shader' }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'logo', src: 'images/clients/Frankie Ruscello - Logo.png' })
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Clients;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (Clients);
 
 /***/ }),
 /* 80 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_layout__ = __webpack_require__(76);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+var ContactUs = function (_Component) {
+  _inherits(ContactUs, _Component);
+
+  function ContactUs() {
+    _classCallCheck(this, ContactUs);
+
+    return _possibleConstructorReturn(this, (ContactUs.__proto__ || Object.getPrototypeOf(ContactUs)).apply(this, arguments));
+  }
+
+  _createClass(ContactUs, [{
+    key: 'render',
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_2__components_layout__["a" /* default */],
+        { idName: 'ContactUs', className: 'wrapper' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { id: 'Notif', className: 'column is-5-desktop is-6-tablet _margin-auto notification is-success has-text-centered' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('button', { className: 'delete' }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h1',
+            { className: 'is-size-4 header' },
+            'Thank you for getting in touch!'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            { className: 'content' },
+            'We appreciate you contacting us. One of our colleagues will get back to you shortly.'
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'container is-fullhd' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'columns is-marginless is-centered is-multiline' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'form',
+              { id: 'ContactUsForm', method: 'POST', className: 'column is-5-widescreen is-5-desktop is-8-tablet' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'field' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'control' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { id: 'Fullname', className: 'input', type: 'text', name: 'name', placeholder: 'Full Name', autoComplete: 'off' })
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'field' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'control' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { id: 'Email', className: 'input', type: 'text', name: 'email', placeholder: 'Email', autoComplete: 'off' }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'label',
+                    { className: 'label has-text-right' },
+                    'Invalid Email'
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'field' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'control' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('textarea', { id: 'Message', className: 'textarea', type: 'text', name: 'message', placeholder: 'Message', rows: '8' })
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'button',
+                { id: 'SendMessage', className: 'button is-success' },
+                'Send'
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { id: 'Details', className: 'column is-5-widescreen is-5-desktop is-8-tablet' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'details level' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'level-left' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'level-item icon icon-location is-size-4 is-size-3-mobile _margin-auto-tablet' })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'p',
+                  { className: 'level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile' },
+                  'Carolina MacGillavrylaan 357 1098XA Amsterdam'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'details level' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'level-left' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'level-item icon icon-phone is-size-4 is-size-3-mobile _margin-auto-tablet' })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'p',
+                  { className: 'level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile' },
+                  '+49 176 832 03349'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'details level' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'level-left' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'level-item icon icon-mail is-size-4 is-size-3-mobile _margin-auto-tablet' })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'p',
+                  { className: 'level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile' },
+                  'info@topmusicmanagement.com'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h3',
+                { className: 'is-size-5 is-uppercase has-text-weight-bold has-text-centered-mobile' },
+                'Stay Connected'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { className: 'has-text-centered-mobile' },
+                'We are so looking forward to hearing from you, if you want to work with us, have some questions, or just want to send some love, please take the time to say hola!'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { id: 'Social', className: 'level is-hidden-mobile' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'level-item level-left social-media' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: 'https://www.facebook.com/topmusicmanagement', target: '_blank', className: 'is-size-5 _padding-rightless social-link' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-facebook icon is-medium' })
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: 'https://mobile.twitter.com/TopMusicMGMT?p=s', target: '_blank', className: 'is-size-5 _padding-rightless social-link' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-twitter icon is-medium' })
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: 'https://www.instagram.com/topmusicmanagement', target: '_blank', className: 'is-size-5 _padding-rightless social-link' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-instagram icon is-medium' })
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return ContactUs;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (ContactUs);
 
 /***/ }),
 /* 81 */
@@ -23040,901 +23874,34 @@ var Footer = function (_Component) {
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 85 */,
-/* 86 */,
-/* 87 */,
-/* 88 */,
-/* 89 */,
-/* 90 */,
-/* 91 */,
-/* 92 */,
-/* 93 */,
-/* 94 */,
-/* 95 */,
-/* 96 */,
-/* 97 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/* 85 */
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(45);
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-var Navigation = function (_Component) {
-  _inherits(Navigation, _Component);
-
-  function Navigation() {
-    _classCallCheck(this, Navigation);
-
-    return _possibleConstructorReturn(this, (Navigation.__proto__ || Object.getPrototypeOf(Navigation)).apply(this, arguments));
-  }
-
-  _createClass(Navigation, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "div",
-        { id: "Navbar", className: "navbar is-transparent is-fixed-top" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "container" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "navbar-brand" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-              { to: "/", className: "navbar-item" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "_initial-maxheight", src: "images/logo/logo-267x45.png", alt: "Top Music Management" })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "span",
-              { className: "navbar-burger burger is-flex-tablet-only is-flex-mobile", "data-target": "navbarMenuHeroC" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", null),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", null),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", null)
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { id: "navbarMenuHeroC", className: "navbar-menu has-text-centered-touch" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "navbar-end" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-                { to: "/", activeclassname: "is-active", className: "navbar-item is-uppercase" },
-                "Home"
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-                { to: "whoweare", activeclassname: "is-active", className: "navbar-item is-uppercase" },
-                "Who We Are"
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-                { to: "whatwedo", activeclassname: "is-active", className: "navbar-item is-uppercase" },
-                "What We Do"
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-                { to: "clients", activeclassname: "is-active", className: "navbar-item is-uppercase" },
-                "Clients"
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-                { to: "contactus", activeclassname: "is-active", className: "navbar-item is-uppercase" },
-                "Contact"
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return Navigation;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
-
-/* harmony default export */ __webpack_exports__["a"] = (Navigation);
+// removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 98 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/* 86 */
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-var WhatWeDo = function (_Component) {
-  _inherits(WhatWeDo, _Component);
-
-  function WhatWeDo() {
-    _classCallCheck(this, WhatWeDo);
-
-    return _possibleConstructorReturn(this, (WhatWeDo.__proto__ || Object.getPrototypeOf(WhatWeDo)).apply(this, arguments));
-  }
-
-  _createClass(WhatWeDo, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "div",
-        { id: "WhatWeDo", className: "wrapper" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "section",
-          { id: "Services", className: "hero" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "hero-body" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "container" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "h1",
-                { className: "title has-text-centered has-text-weight-semibold" },
-                "Top Music Management offers the following services"
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "columns is-centered is-flex-mobile _flex-wrap-mobile" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-mic icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { className: "title is-size-5 has-text-weight-normal is-marginless" },
-                    "Artist",
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                    "Management"
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-rockstar-shirt icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { className: "title is-size-5 has-text-weight-normal is-marginless" },
-                    "Personal",
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                    "Branding"
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-distance icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { className: "title is-size-5 has-text-weight-normal is-marginless" },
-                    "Tour",
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                    "Management"
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-favorite-book icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { className: "title is-size-5 has-text-weight-normal is-marginless" },
-                    "Booking",
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                    "Management"
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "columns is-centered is-flex-mobile _flex-wrap-mobile" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-podium icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { className: "title is-size-5 has-text-weight-normal is-marginless" },
-                    "Strategic Career",
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                    "Planning"
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-social-media-graph icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { className: "title is-size-5 has-text-weight-normal is-marginless" },
-                    "Marketing",
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                    "and Social Media"
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-search-rockstar icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { className: "title is-size-5 has-text-weight-normal is-marginless" },
-                    "A&R",
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                    "Consultancy"
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "column has-text-centered is-2-widescreen is-one-fifth-desktop is-one-quarter-tablet is-two-fifths-mobile" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-balance icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { className: "title is-size-5 has-text-weight-normal is-marginless" },
-                    "Legal",
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                    "Advisory"
-                  )
-                )
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "section",
-          { id: "Operating", className: "hero" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "hero-body" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "container" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "columns is-centered is-multiline" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "column is-3-widescreen is-4-desktop is-8-tablet has-text-centered-touch is-flex" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "p",
-                    { className: "is-size-5 has-text-weight-semibold" },
-                    "We are currently operating in South America, Europe and opening new markets in Asia and the MENA Region. Our headquarter is in Amsterdam."
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "column is-5-widescreen is-7-desktop is-12-tablet has-text-centered" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/whatwedo/map.png" })
-                )
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return WhatWeDo;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
-
-/* harmony default export */ __webpack_exports__["a"] = (WhatWeDo);
+// removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 99 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/* 87 */
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-var WhoWeAre = function (_Component) {
-  _inherits(WhoWeAre, _Component);
-
-  function WhoWeAre() {
-    _classCallCheck(this, WhoWeAre);
-
-    return _possibleConstructorReturn(this, (WhoWeAre.__proto__ || Object.getPrototypeOf(WhoWeAre)).apply(this, arguments));
-  }
-
-  _createClass(WhoWeAre, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "div",
-        { id: "WhoWeAre", "class": "wrapper" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "section",
-          { id: "AboutUs", "class": "hero" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { "class": "hero-body" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { "class": "container has-text-centered" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "h1",
-                { "class": "title is-size-2" },
-                "We are Top Music Management"
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "h2",
-                { "class": "column _margin-auto is-6-fullhd is-8-desktop is-9-tablet subtitle is-size-4" },
-                "a young and dynamic Artist Management Company focused on the needs of our artists."
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { "class": "content column _margin-auto is-7-fullhd is-8-desktop is-9-tablet" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "p",
-                  null,
-                  "We understand artists and their aim to focus on their musical production and performance. However, in the music industry artists are subject to pressures 24 hours a day, seven days a week."
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "p",
-                  null,
-                  "This is why Top Music Management offers 360-degree support to our clients, providing space for creativity and enabling the artist to grow professionally beyond their wildest dreams."
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "p",
-                  null,
-                  "By devising and executing individually customized career strategies and services we facilitate our artists to excel. Our aim is to create a partnership, in which our clients can rely on us for their careers, while they fully focus on what they and what we love: Music."
-                )
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "section",
-          { id: "Attitudes", "class": "hero" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { "class": "hero-body" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { "class": "container has-text-centered" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { "class": "columns" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { "class": "column is-8-desktop is-8-tablet is-offset-2-desktop is-offset-2-tablet" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h2",
-                    { "class": "subtitle is-size-5" },
-                    "Our success is not only do to the quality of our work, it\xB4s down to trust, attitude and the way we approach our artists, life and music."
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { "class": "columns is-desktop is-flex-tablet _flex-wrap-tablet is-block-mobile" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { "class": "column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { "class": "icon-passion icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { "class": "title is-size-5 has-text-weight-semibold is-marginless" },
-                    "Passion"
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "p",
-                    { "class": "details" },
-                    "Our desire to support our artists to produce good music and share it with the world runs deep. Music is our passion thats why we enjoy every step of the way with you!"
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { "class": "column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { "class": "icon-success icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { "class": "title is-size-5 has-text-weight-semibold is-marginless" },
-                    "Drive"
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "p",
-                    { "class": "details" },
-                    "We are highly motivated to help you reach beyond limits and expectations."
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { "class": "column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { "class": "icon-focus icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { "class": "title is-size-5 has-text-weight-semibold is-marginless" },
-                    "Focus"
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "p",
-                    { "class": "details" },
-                    "We focus on our artists, their needs and aspirations, so we do everything for their professional development."
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { "class": "column has-text-centered is-3-desktop is-5-tablet is-8-mobile _margin-auto-tablet" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { "class": "icon-party icon" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "h4",
-                    { "class": "title is-size-5 has-text-weight-semibold is-marginless" },
-                    "Excellence"
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "p",
-                    { "class": "details" },
-                    "Top Music Management doesn't just want the best for you, we want to make things happen around the gobble, come join us!"
-                  )
-                )
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "section",
-          { id: "TheTeam" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "section",
-            { "class": "hero" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { "class": "hero-body" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { "class": "container has-text-centered" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "h1",
-                  { "class": "title" },
-                  "Meet the Team"
-                )
-              )
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { "class": "container" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { "class": "columns is-marginless is-centered" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { "class": "column is-8-desktop" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { "class": "box is-shadowless _margin-bottomless-mobile" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "article",
-                    { "class": "media is-flex-mobile _flex-column-mobile _flex-items-center-mobile" },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "div",
-                      { "class": "media-left _margin-rightless-mobile" },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "figure",
-                        { "class": "profile-image" },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { "class": "image", src: "images/profile/Ckati.jpg", alt: "Image" })
-                      )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "div",
-                      { "class": "media-content has-text-centered-mobile" },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "div",
-                        { "class": "content" },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          "div",
-                          { "class": "name" },
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "h3",
-                            { "class": "has-text-weight-semibold is-size-5 is-marginless" },
-                            "Ckatu"
-                          ),
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "label",
-                            null,
-                            "Founder & CEO"
-                          )
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          "p",
-                          null,
-                          "Ckatu believes in dreams and loves working with the dreamers that work hard to make them come true. As a former Management Consultant in one of  the top Fortune Global 500 companies she enjoys the mix of business and her passion: Music."
-                        )
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "nav",
-                        { "class": "level is-flex-mobile _flex-content-center-mobile" },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          "div",
-                          { "class": "level-left" },
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "a",
-                            { href: "https://www.facebook.com/ckatiuscka.ribadeneira", target: "_blank", "class": "level-item social-link is-size-5 is-inline-mobile" },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { "class": "icon-facebook icon" })
-                          ),
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "a",
-                            { href: "https://mobile.twitter.com/ckatur", target: "_blank", "class": "level-item social-link is-size-5 is-inline-mobile" },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { "class": "icon-twitter icon" })
-                          ),
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "a",
-                            { href: "https://www.instagram.com/ckatu/", target: "_blank", "class": "level-item social-link is-size-5 is-inline-mobile" },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { "class": "icon-instagram icon" })
-                          )
-                        )
-                      )
-                    )
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { "class": "box is-shadowless" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "article",
-                    { "class": "media is-flex-mobile _flex-column-mobile _flex-items-center-mobile" },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "div",
-                      { "class": "media-right _margin-leftless-mobile" },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "figure",
-                        { "class": "profile-image" },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { "class": "image", src: "images/profile/Mikayla.jpg", alt: "Image" })
-                      )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      "div",
-                      { "class": "media-content has-text-centered-mobile" },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "div",
-                        { "class": "content" },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          "div",
-                          { "class": "name" },
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "h3",
-                            { "class": "has-text-weight-semibold is-size-5 is-marginless" },
-                            "Mikay"
-                          ),
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "label",
-                            null,
-                            "Management Assistant"
-                          )
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          "p",
-                          null,
-                          "Mikay is an amazing friend and co-worker, who knows how to strive for what she believes. Working for a while in the Music Industry and studying at the HBA she knows her way around and is the perfect complement to the team."
-                        )
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "nav",
-                        { "class": "level is-flex-mobile _flex-content-center-mobile" },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          "div",
-                          { "class": "level-left" },
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "a",
-                            { href: "https://www.facebook.com/mikayla.witholt", target: "_blank", "class": "level-item social-link is-size-5 is-inline-mobile" },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { "class": "icon-facebook icon" })
-                          ),
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "a",
-                            { href: "https://www.instagram.com/mikaylawitholt/", target: "_blank", "class": "level-item social-link is-size-5 is-inline-mobile" },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { "class": "icon-twitter icon" })
-                          ),
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "a",
-                            { href: "https://mobile.twitter.com/Mikaylaalaaa", target: "_blank", "class": "level-item social-link is-size-5 is-inline-mobile" },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { "class": "icon-instagram icon" })
-                          )
-                        )
-                      )
-                    )
-                  )
-                )
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return WhoWeAre;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
-
-/* harmony default export */ __webpack_exports__["a"] = (WhoWeAre);
+// removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 100 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/* 88 */
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-var Clients = function (_Component) {
-  _inherits(Clients, _Component);
-
-  function Clients() {
-    _classCallCheck(this, Clients);
-
-    return _possibleConstructorReturn(this, (Clients.__proto__ || Object.getPrototypeOf(Clients)).apply(this, arguments));
-  }
-
-  _createClass(Clients, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "div",
-        { id: "Clients", className: "wrapper" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "container is-fluid is-marginless" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "columns is-multiline is-marginless _height-initial-mobile" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "column is-flex is-3", style: { backgroundImage: "url('images/clients/Oscar Troya.jpg')" } },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "shader" }),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "logo", src: "images/clients/Oscar Troya - Logo.png" })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "column is-flex is-3", style: { backgroundImage: "url('images/clients/Hasse de Moor.jpg')" } },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "shader" }),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "logo", src: "images/clients/Hasse de Moor - Logo.png" })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "column is-flex is-3", style: { backgroundImage: "url('images/clients/Bobby Rock.jpg')" } },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "shader" }),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "logo", src: "images/clients/Bobby Rock - Logo.png" })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "column is-flex is-3", style: { backgroundImage: "url('images/clients/Frankie Ruscello.jpg')" } },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "shader" }),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "logo", src: "images/clients/Frankie Ruscello - Logo.png" })
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return Clients;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
-
-/* harmony default export */ __webpack_exports__["a"] = (Clients);
+// removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 101 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/* 89 */
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(45);
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-var ContactUs = function (_Component) {
-  _inherits(ContactUs, _Component);
-
-  function ContactUs() {
-    _classCallCheck(this, ContactUs);
-
-    return _possibleConstructorReturn(this, (ContactUs.__proto__ || Object.getPrototypeOf(ContactUs)).apply(this, arguments));
-  }
-
-  _createClass(ContactUs, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "div",
-        { id: "ContactUs", className: "wrapper" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { id: "Notif", className: "column is-5-desktop is-6-tablet _margin-auto notification is-success has-text-centered" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", { className: "delete" }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "h1",
-            { className: "is-size-4 header" },
-            "Thank you for getting in touch!"
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "p",
-            { className: "content" },
-            "We appreciate you contacting us. One of our colleagues will get back to you shortly."
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "container is-fullhd" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "columns is-marginless is-centered is-multiline" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "form",
-              { id: "ContactUsForm", method: "POST", className: "column is-5-widescreen is-5-desktop is-8-tablet" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "field" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "control" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", { id: "Fullname", className: "input", type: "text", name: "name", placeholder: "Full Name", autocomplete: "off" })
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "field" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "control" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", { id: "Email", className: "input", type: "text", name: "email", placeholder: "Email", autocomplete: "off" }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "label",
-                    { className: "label has-text-right" },
-                    "Invalid Email"
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "field" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "control" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", { id: "Message", className: "textarea", type: "text", name: "message", placeholder: "Message", rows: "8" })
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "button",
-                { id: "SendMessage", className: "button is-success" },
-                "Send"
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { id: "Details", className: "column is-5-widescreen is-5-desktop is-8-tablet" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "details level" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "level-left" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "level-item icon icon-location is-size-4 is-size-3-mobile _margin-auto-tablet" })
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "p",
-                  { className: "level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile" },
-                  "Carolina MacGillavrylaan 357 1098XA Amsterdam"
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "details level" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "level-left" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "level-item icon icon-phone is-size-4 is-size-3-mobile _margin-auto-tablet" })
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "p",
-                  { className: "level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile" },
-                  "+49 176 832 03349"
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "details level" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "level-left" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "level-item icon icon-mail is-size-4 is-size-3-mobile _margin-auto-tablet" })
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "p",
-                  { className: "level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile" },
-                  "info@topmusicmanagement.com"
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "h3",
-                { className: "is-size-5 is-uppercase has-text-weight-bold has-text-centered-mobile" },
-                "Stay Connected"
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "p",
-                { className: "has-text-centered-mobile" },
-                "We are so looking forward to hearing from you, if you want to work with us, have some questions, or just want to send some love, please take the time to say hola!"
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { id: "Social", className: "level is-hidden-mobile" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "level-item level-left social-media" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "a",
-                    { href: "https://www.facebook.com/topmusicmanagement", target: "_blank", className: "is-size-5 _padding-rightless social-link" },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-facebook icon is-medium" })
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "a",
-                    { href: "https://mobile.twitter.com/TopMusicMGMT?p=s", target: "_blank", className: "is-size-5 _padding-rightless social-link" },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-twitter icon is-medium" })
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "a",
-                    { href: "https://www.instagram.com/topmusicmanagement", target: "_blank", className: "is-size-5 _padding-rightless social-link" },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-instagram icon is-medium" })
-                  )
-                )
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return ContactUs;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
-
-/* harmony default export */ __webpack_exports__["a"] = (ContactUs);
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

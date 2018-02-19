@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import Layout from '../components/layout'
 
 class WhatWeDo extends Component {
   render(){
     return(
-      <div id="WhatWeDo" className="wrapper">
+      <Layout idName="WhatWeDo" className="wrapper">
         <section id="Services" className="hero">
           <div className="hero-body">
             <div className="container">
@@ -97,7 +98,7 @@ class WhatWeDo extends Component {
             </div>
           </div>
         </section>
-      </div>
+      </Layout>
     )
   }
 }

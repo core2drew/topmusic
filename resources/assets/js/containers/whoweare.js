@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import Navigation from '../components/navigation'
+import Footer from '../components/footer'
 
 class WhoWeAre extends Component {
   render(){
     return(
       <div id="WhoWeAre" class="wrapper">
+        <Navigation/>
         <section id="AboutUs" class="hero">
           <div class="hero-body">
             <div class="container has-text-centered">
@@ -182,6 +185,7 @@ class WhoWeAre extends Component {
             </div>
           </div>
         </section>
+        <Footer/>
       </div>
     )
   }

@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import Layout from '../components/layout'
 
 class Home extends Component {
   render(){
     return(
-      <div id="LandingPage" className="hero is-fullheight">
+      <Layout idName="LandingPage" className="hero is-fullheight">
         <div className="hero-body">
           <div className="container">
             <h1 className="title has-text-weight-light is-size-1-desktop is-size-2-tablet has-text-centered-mobile">
@@ -13,7 +14,7 @@ class Home extends Component {
             </h1>
           </div>
         </div>
-      </div>
+      </Layout>
     )
   }
 }

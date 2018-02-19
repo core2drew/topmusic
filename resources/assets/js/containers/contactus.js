@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
+import Layout from '../components/layout'
 
 class ContactUs extends Component {
   render(){
     return(
-      <div id="ContactUs" className="wrapper">
+      <Layout idName="ContactUs" className="wrapper">
         <div id="Notif" className="column is-5-desktop is-6-tablet _margin-auto notification is-success has-text-centered">
           <button className="delete"></button>
           <h1 className="is-size-4 header">Thank you for getting in touch!</h1>
@@ -15,12 +16,12 @@ class ContactUs extends Component {
             <form id="ContactUsForm" method="POST" className="column is-5-widescreen is-5-desktop is-8-tablet">
               <div className="field">
                 <div className="control">
-                  <input id="Fullname" className="input"type="text" name="name" placeholder="Full Name" autocomplete="off"/>
+                  <input id="Fullname" className="input"type="text" name="name" placeholder="Full Name" autoComplete="off"/>
                 </div>
               </div>
               <div className="field">
                 <div className="control">
-                  <input id="Email" className="input" type="text" name="email" placeholder="Email" autocomplete="off"/>
+                  <input id="Email" className="input" type="text" name="email" placeholder="Email" autoComplete="off"/>
                   <label className="label has-text-right">Invalid Email</label>
                 </div>
               </div>
@@ -80,7 +81,7 @@ class ContactUs extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </Layout>
     )
   }
 }
