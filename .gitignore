@@ -1,6 +1,7 @@
 /node_modules
 
-/public/css/build
+/public/css
+/public/mix-manifest
 /*.key
 /vendor
 
