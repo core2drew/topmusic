@@ -34,7 +34,7 @@ mix
         'public/css/build/clients.css',
         'public/css/build/contactus.css'
     ], 'public/css/app.css')
-    .scripts([
+    .babel([
         'node_modules/jquery/dist/jquery.min.js',
         'resources/assets/js/main.js'
     ],'public/js/main.js')
