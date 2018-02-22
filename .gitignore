@@ -1,6 +1,8 @@
 /node_modules
 
-/public/css
+/public/css/build
+/public/css/app.css
+/public/css/bulma.css
 /public/mix-manifest.json
 /public/js
 /*.key
