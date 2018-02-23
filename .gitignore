@@ -23,3 +23,4 @@ composer.lock
 yarn-error.log
 .gitattributes
 /tests
+.env.example

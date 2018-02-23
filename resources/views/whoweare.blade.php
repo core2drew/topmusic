@@ -12,7 +12,7 @@
           <div class="column is-3-fullhd is-4-desktop">
 
             <h1 class="title is-size-1">
-              We are <span class="tmm-logo-font">Top Music Management</span>
+              We are <br/> Top Music Management
             </h1>
             <h2 class="subtitle is-size-4">
               a young and dynamic Artist Management Company
@@ -21,6 +21,20 @@
           </div>
           <div class="column is-flex">
             <div class="content">
+            <svg version="1.1" id="TMMLogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="74.177px" height="74.177px" viewBox="0 0 74.177 74.177" enable-background="new 0 0 74.177 74.177" xml:space="preserve">
+              <g>
+                <g>
+                  <path fill="#1D1D1B" d="M13.912,58.714V12.27h7.604l17.209,26.19h0.366L55.304,4.818C49.917,1.766,43.71,0,37.089,0
+                    C16.638,0,0,16.638,0,37.087c0,8.599,2.968,16.502,7.896,22.8C9.863,58.588,12.096,58.183,13.912,58.714z"/>
+                  <path fill="#1D1D1B" d="M63.437,11.023v40.234c0.362,2.228-0.779,4.864-3.104,6.646c-3.093,2.373-7.105,2.334-8.964-0.088
+                    c-1.857-2.422-0.855-6.307,2.237-8.68c0.747-0.573,1.549-0.998,2.359-1.291v-36.43h-0.233l-18.142,37.35h-1.534L17.714,20.541
+                    h-0.499V62.63h-0.001c0.158,1.542-0.395,3.236-1.514,4.706c6.052,4.292,13.422,6.841,21.389,6.841
+                    c20.45,0,37.088-16.639,37.088-37.089C74.177,26.934,70.069,17.727,63.437,11.023z"/>
+                </g>
+              </g>
+            </svg>
+
               <p class="is-size-5">
                 We understand artists and their aim to focus on their musical production and performance.
                 However, in the music industry artists are subject to pressures 24 hours a day, seven days a week. 

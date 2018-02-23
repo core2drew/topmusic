@@ -24,6 +24,23 @@
       >.container > .columns > .column > .subtitle {
         margin:0;
       }
+
+      >.container > .columns > .column > .content{
+        position: relative;
+      }
+
+      >.container > .columns > .column > .content > #TMMLogo{
+        fill-opacity: 0.2;
+        width: 60%;
+        height: 120%;
+        position: absolute;
+        /* margin: auto; */
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+      }
     }
   }
 
