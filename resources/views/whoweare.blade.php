@@ -7,29 +7,35 @@
       @include('navbar')
     </div>
     <div class="hero-body">
-      <div class="container has-text-centered">
-        <h1 class="title is-size-2">
-          We are Top Music Management
-        </h1>
-        <h2 class="column _margin-auto is-6-fullhd is-8-desktop is-9-tablet subtitle is-size-4">
-          a young and dynamic Artist Management Company
-          focused on the needs of our artists.
-        </h2>
+      <div class="container">
+        <div class="columns">
+          <div class="column is-3-fullhd is-4-desktop">
 
-        <div class="content column _margin-auto is-7-fullhd is-8-desktop is-9-tablet">
-          <p>
-            We understand artists and their aim to focus on their musical production and performance.
-            However, in the music industry artists are subject to pressures 24 hours a day, seven days a week. 
-          </p>
-          <p>
-            This is why Top Music Management offers 360-degree support to our clients, providing space for
-            creativity and enabling the artist to grow professionally beyond their wildest dreams. 
-          </p>
-          <p>
-            By devising and executing individually customized career strategies and services we facilitate our
-            artists to excel. Our aim is to create a partnership, in which our clients can rely on us for their
-            careers, while they fully focus on what they and what we love: Music.
-          </p>
+            <h1 class="title is-size-1">
+              We are <span class="tmm-logo-font">Top Music Management</span>
+            </h1>
+            <h2 class="subtitle is-size-4">
+              a young and dynamic Artist Management Company
+              focused on the needs of our artists.
+            </h2>
+          </div>
+          <div class="column is-flex">
+            <div class="content">
+              <p class="is-size-5">
+                We understand artists and their aim to focus on their musical production and performance.
+                However, in the music industry artists are subject to pressures 24 hours a day, seven days a week. 
+              </p>
+              <p class="is-size-5">
+                This is why Top Music Management offers 360-degree support to our clients, providing space for
+                creativity and enabling the artist to grow professionally beyond their wildest dreams. 
+              </p>
+              <p class="is-size-5">
+                By devising and executing individually customized career strategies and services we facilitate our
+                artists to excel. Our aim is to create a partnership, in which our clients can rely on us for their
+                careers, while they fully focus on what they and what we love: Music.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -2,6 +2,31 @@
 @import 'mixins';
 
 #WhoWeAre {
+  > #AboutUs {
+    > .hero-body {
+      >.container > .columns > .column:nth-child(1) {
+        background-color:#000;
+      }
+
+      >.container > .columns > .column:nth-child(2) {
+        @include align-items(center);
+      }
+      
+      >.container > .columns > .column > .title,
+      >.container > .columns > .column > .subtitle {
+        color:#fff;
+      }
+     
+      >.container > .columns > .column > .title > .tmm-logo-font {
+        display: block;
+      }
+
+      >.container > .columns > .column > .subtitle {
+        margin:0;
+      }
+    }
+  }
+
   > #Attitudes {
     background-color: $theme-primary-red;
     color: #fff;
