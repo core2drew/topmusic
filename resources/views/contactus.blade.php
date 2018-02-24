@@ -44,7 +44,7 @@
             <span class="level-item icon icon-phone is-size-4 is-size-3-mobile _margin-auto-tablet"></span>
           </div>
           <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
-            +49 176 832 03349
+            +31 6185 41318
           </p>
         </div>
         <div class="details level">
