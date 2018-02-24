@@ -11,7 +11,7 @@
         <div class="columns is-centered is-block-touch">
           <div class="column is-3-fullhd is-4-desktop">
 
-            <h1 class="title is-size-1-desktop _margin-less-tablet">
+            <h1 class="title is-size-1-desktop is-size-2-touch _margin-less-tablet">
             <span class="is-block-desktop">We are</span> Top Music Management
             </h1>
             <h2 class="subtitle is-size-4-desktop">
