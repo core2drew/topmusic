@@ -32,7 +32,7 @@
       >.container > .columns > .column > .content > #TMMLogo{
         fill-opacity: 0.2;
         width: 60%;
-        height: 120%;
+        height: 90%;
         position: absolute;
         /* margin: auto; */
         left: 0;
@@ -111,8 +111,28 @@
   }
 }
 
+@media screen and (max-width: 1407px) {
+  #WhoWeAre {
+    > #AboutUs {
+      > .hero-body {
+        >.container > .columns > .column > .content > #TMMLogo{
+          height: 60%;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1023px) {
   #WhoWeAre {
+    > #AboutUs {
+      > .hero-body {
+        >.container > .columns > .column > .content > #TMMLogo{
+          height: 90%;
+        }
+      }
+    }
+
     > #Attitudes {
       > .hero-body {
         > .container > .columns > .column {
