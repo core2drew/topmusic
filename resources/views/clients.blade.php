@@ -22,6 +22,12 @@
         <img class="logo" src="images/clients/Frankie Ruscello - Logo.png"/>
       </div>
     </div>
+    <div class="columns is-multiline is-marginless _height-initial-mobile">
+      <div class="column is-flex is-4" style="background-image:url('images/clients/Aesty.jpg')">
+        <div class="shader"></div>
+        <img class="logo" src="images/clients/Aesty - Logo.png"/>
+      </div>
+    </div>
   </div>
   @include('footer', ['class'=>'default'])
 </div>
