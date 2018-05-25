@@ -16,6 +16,16 @@
         A&R Consultancy. We are currently operating in South America, Europe and opening new markets in Asia and the MENA Region. 
         Founder & CEO - Ckatiuscka Ribadeneira">
     <meta name="Keywords" content="artist management, personal branding, strategic career planning, marketing and social media, A&R consultancy, advisory, music industry, musical production, supervisor, marketing, amsterdam,">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117972084-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117972084-1');
+    </script>
+
 </head>
 <body>
     
