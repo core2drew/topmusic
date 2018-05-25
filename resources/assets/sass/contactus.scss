@@ -67,7 +67,7 @@
 
     > .columns > #Details > .details > .level-item {
       @include flex-shrink(1);
-      @include justify-content(flex-start);
+      @include justify-content(flex-start, false);
       margin-left: 15px;
     }
 
@@ -97,6 +97,15 @@
   
       > .columns > #Details > .details > .level-left {
         margin-bottom: 10px;
+      }
+
+      > .columns > #Details > .details > .level-item {
+        @include justify-content(center, true);
+      }
+
+      > .columns > #Details > .details,
+      > .columns > #Details > .details > .level-left {
+        text-align: center;
       }
     }
   }

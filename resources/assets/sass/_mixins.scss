@@ -44,9 +44,9 @@
 	}
 		
 	@else {
-		justify-content:$position !important;
-		-moz-justify-content:$position  !important;
-		-webkit-justify-content:$position  !important;
+		justify-content:$position;
+		-moz-justify-content:$position;
+		-webkit-justify-content:$position;
 	}
 }
 
