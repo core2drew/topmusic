@@ -67,6 +67,7 @@
 
     > .columns > #Details > .details > .level-item {
       @include flex-shrink(1);
+      @include justify-content(flex-start);
       margin-left: 15px;
     }
 

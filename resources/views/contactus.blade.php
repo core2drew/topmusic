@@ -34,8 +34,8 @@
           <div class="level-left">
             <span class="level-item icon icon-location is-size-4 is-size-3-mobile _margin-auto-tablet"></span>
           </div>
-          <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">MacGillavrylaan 357 
-            1098XA Amsterdam
+          <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
+            Ceintuurbaan 25 I 1072 ES Amsterdam The Netherlands
           </p>
         </div>
         <div class="details level">
@@ -43,7 +43,7 @@
             <span class="level-item icon icon-phone is-size-4 is-size-3-mobile _margin-auto-tablet"></span>
           </div>
           <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
-            +31 6185 41318
+            +31 (0) 618 541 318
           </p>
         </div>
         <div class="details level">
@@ -53,6 +53,41 @@
           <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
             info@topmusicmanagement.com
           </p>
+        </div>
+        <div class="details level">
+          <div class="level-left">
+            <strong>VAT number:</strong>
+          </div>
+          <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
+            NL451770924B01
+          </p>
+        </div>
+        <div class="details level">
+          <div class="level-left">
+            <strong>Registration number:</strong>
+          </div>
+          <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
+            71632352
+          </p>
+        </div>
+        <div class="details level">
+          <div class="level-left">
+            <strong>Brand Identity:</strong>
+          </div>
+          <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
+            Torvic Design
+          </p>
+        </div>
+        <div class="details level">
+          <div class="level-left">
+            <strong>Website Design:</strong>
+          </div>
+          <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
+            Drew Calupe
+          </p>
+        </div>
+        <div class="details level">
+          <p>All images are copyrighted and property of their respective owners.</p>
         </div>
         <h3 class="is-size-5 is-uppercase has-text-weight-bold has-text-centered-mobile">Stay Connected</h3>
         <p class="has-text-centered-mobile">
