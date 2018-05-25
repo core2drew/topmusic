@@ -34,8 +34,7 @@
           <div class="level-left">
             <span class="level-item icon icon-location is-size-4 is-size-3-mobile _margin-auto-tablet"></span>
           </div>
-          <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">
-            Carolina MacGillavrylaan 357 
+          <p class="level-item _flex-content-baseline-widescreen _flex-content-baseline-fullhd _flex-content-center-mobile _margin-leftless-mobile has-text-centered-mobile">MacGillavrylaan 357 
             1098XA Amsterdam
           </p>
         </div>
