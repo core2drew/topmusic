@@ -85,6 +85,7 @@ $(function(){
         formData = contactUsForm.serialize()
         $this.addClass('is-loading')
         contactUsForm.find('input[type=text], textarea').attr('disabled','disabled')
+        ga('send', 'event', 'Contact Form', 'send_form');
         $.ajax({
           url: 'inquiry',
           type: 'POST',
