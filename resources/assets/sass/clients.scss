@@ -4,7 +4,7 @@
   > .container {
     background-color: #232323;
     > .columns {
-      height: calc(100vh - 50px);
+      //height: calc(100vh - 50px);
     }
     
     > .columns > .column {
@@ -16,7 +16,7 @@
       background-position: center;
       padding: 0;
       position: relative;
-      
+      height: 100vh;
     }
 
     > .columns > .column > .shader {
@@ -49,19 +49,7 @@
   #Clients {
     > .container {
       > .columns > .column {
-        height:33.33333333333333%
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 450px) {
-  #Clients {
-    > .container {
-      > .columns {
-        @include flexbox();
-        @include flex-direction(column);
-        height: calc(100vh) !important;
+        height: 750px;
       }
     }
   }
