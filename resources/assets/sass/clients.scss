@@ -19,6 +19,10 @@
       height: 100vh;
     }
 
+    > .columns > .column.tmm-logo {
+      background-size: 100%;
+    }
+
     > .columns > .column > .shader {
       @include transition(background-color 0.2s);
       position: absolute;

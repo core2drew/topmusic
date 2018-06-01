@@ -25,6 +25,8 @@
         <div class="shader"></div>
         <img class="logo" src="images/clients/Frankie Ruscello - Logo.png"/>
       </div>
+      <div class="column is-flex is-4-desktop is-6-tablet is-hidden-mobile tmm-logo" style="background-image:url('images/clients/TMM.png')">
+      </div>
     </div>
   </div>
   @include('footer', ['class'=>'default'])
