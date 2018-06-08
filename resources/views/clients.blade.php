@@ -13,10 +13,10 @@
         <div class="shader"></div>
         <img class="logo" alt="Aizy" src="images/clients/Aizy - Logo.png"/>
       </div>
-      <div class="column is-flex is-4-desktop is-6-tablet" style="background-image:url('images/clients/Hasse de Moor.jpg')">
+      <!-- <div class="column is-flex is-4-desktop is-6-tablet" style="background-image:url('images/clients/Hasse de Moor.jpg')">
         <div class="shader"></div>
         <img class="logo" alt="Hasse de Moor" src="images/clients/Hasse de Moor - Logo.png"/>
-      </div>
+      </div> -->
       <div class="column is-flex is-4-desktop is-6-tablet" style="background-image:url('images/clients/Bobby Rock.jpg')">
         <div class="shader"></div>
         <img class="logo" alt="Bobby Rock" src="images/clients/Bobby Rock - Logo.png"/>
@@ -25,7 +25,7 @@
         <div class="shader"></div>
         <img class="logo" alt="Frankie Ruscello" src="images/clients/Frankie Ruscello - Logo.png"/>
       </div>
-      <div class="column is-flex is-4-desktop is-6-tablet is-hidden-mobile tmm-logo" style="background-image:url('images/clients/TMM.png')">
+      <div class="column is-flex is-8-desktop is-hidden-tablet-only is-hidden-mobile tmm-logo" style="background-image:url('images/clients/TMM.png')">
       </div>
     </div>
   </div>
