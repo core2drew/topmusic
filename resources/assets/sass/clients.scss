@@ -1,12 +1,20 @@
 @import 'mixins';
 
+
+
 #Clients {
+  
+  > .hero.is-fullheight {
+    min-height: 91vh;
+    text-align: center;
+  }
+
   > .container {
-    background-color: #232323;
+    // background-color: #232323; // Temporary
     > .columns {
       //height: calc(100vh - 50px);
     }
-    
+
     > .columns > .column {
       @include flex-direction(column);
       @include justify-content(flex-end);
