@@ -44,7 +44,7 @@
           <div class="shader"></div>
           <img class="logo" alt="msfaith-logo" src="images/clients/msfaith-logo.png"/>
         </div>
-        <div class="column is-flex is-8-desktop is-hidden-tablet-only is-hidden-mobile tmm-logo" style="background-image:url('images/clients/TMM.png')">
+        <div class="column is-flex is-8-desktop is-hidden-mobile tmm-logo" style="background-image:url('images/clients/TMM.png')">
         </div>
     </div>
   </div>
