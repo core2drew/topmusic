@@ -55,6 +55,39 @@
   }
 }
 
+#Info {
+  position: relative;
+  > .notification {
+    display: none;
+    position: fixed;
+    z-index: 111;
+    margin: 0;
+    bottom: 95px;
+    left: 30px;
+    max-width: 300px;
+    background-color: #121212;
+    color: #fff;
+
+    > .delete {
+      background: transparent;
+    }
+
+    &.active {
+      display: block !important;
+    }
+  }
+  > .show {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 40px;
+    z-index: 999;
+    left: 25px;
+    fill: #121212;
+    cursor: pointer;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #Clients {
     > .container {
