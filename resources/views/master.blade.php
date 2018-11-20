@@ -20,7 +20,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="css/tmm-font-icons.css" rel="stylesheet"/>
     <link href="css/bulma.css" rel="stylesheet"/>
-    <link href="css/app.css" rel="stylesheet"/>
+    <link href="{{mix('/css/app.css')}}" rel="stylesheet"/>
     <meta name="Description" content="Top Music Management
         a young and dynamic Artist Management Company focused on the needs of our artists. And Offers Artist
         Management, Personal Branding, Tour Management, Booking Management, Strategic Career Planning, Marketing and Social Media, 
@@ -32,6 +32,6 @@
     
     @yield('content')
     @yield('scripts')
-    <script src='js/main.js'></script>
+    <script src="{{mix('js/main.js')}}"></script>
 </body>
 </html>
